@@ -1,8 +1,8 @@
-/*==========  Non-Mobile First Method  ==========*/
+ /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-        .main-navigation, .main-navigation.inner-page {
+        .main-navigation, .inner-navigation {
             display: none;
         }
         .main-menu {
@@ -12,19 +12,156 @@
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-        
+        .logo-box, .moto-box {
+            padding-top: 70px;
+            width: calc(50% - 45px);
+        }
+        .moto-box h1 {
+            
+            margin-top: 0;
+        }
+        .collection-section h1 {
+            font-size: 25px;
+            line-height: 28px;
+        }
+        .header-article p {
+           width: 100%;
+            margin-top: 30px;
+        }
+        .collections-hover1 button,
+        .collections-hover2 button,
+        .collections-hover3 button {
+            top: 200px;
+        }
+        footer {
+            padding: 60px 2%;
+        }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-        
+        .landing-header {
+            min-height: 50%;
+            height: 60%;
+        }
+        .logo-box {
+            width: calc(50% - 35px);
+        }
+       .moto-box {
+            
+            width: calc(50% - 35px);
+        }
+        .moto-box h1 {
+            font-size: 40px;
+            line-height: 43px;
+            margin-top: 0;
+        }
+        .moto-box h2 {
+            font-size: 35px;
+            line-height: 38px;
+            margin-top: 30px;
+        }
+        .header-article {
+           display: none;
+        }
+        .header-article a {
+            margin: 20px 0;
+            color: #ff392f;
+        }
+        .collection-section h1 {
+            padding: 30px 2%;
+        }
+        .text-center.collection1,
+        .text-right.collection2 {
+            display: none;
+        }
+        .collections-list li {
+            display: block;
+            width: 100%;
+        }
+        .collection-section h1 p {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        .collections-list li.large-item {
+            width: 100%;
+        }
+        .image-box {
+            margin-bottom: 20px;
+        }
+        footer {
+            padding: 42px 2%;
+        }
+		
+		/* SHOP PAGE */
+		.shop-image-box, .shop-article-box {
+			display: block;
+			width: 100%;
+			margin-bottom: 40px;
+		}
 	}
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-                
-    }
+        
+        .logo-box {
+            display: block;
+            width: 100%;
+            text-align: center;  
+       }
+       .moto-box {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-top: 0;
+        }
+        .moto-box h1 {
+            font-size: 30px;
+            line-height: 33px;
+        }
+        .moto-box h2 {
+            font-size: 25px;
+            line-height: 28px;
+            margin-top: 20px;
+        }
+        .ww-article {
+            height: 400px;
+        }
+        .article-box p {
+            color: #000;
+            font-size: 16px;
+            
+            font-weight: normal;
+            text-transform: none;
+            text-decoration: none;
+            line-height: 18px;
+            max-height: 300px;
+            margin: 30px 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+        }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
-        
+        .logo-box {
+            padding-bottom: 20px;
+        }
+        .moto-box h1 {
+            font-size: 30px;
+            line-height: 33px;
+            margin-top: 0;
+        }
+        .moto-box h2 {
+            font-size: 25px;
+            line-height: 28px;
+            margin-top: 15px;
+        }
+        .collections-hover1 button,
+        .collections-hover2 button,
+        .collections-hover3 button {
+            top: 150px;
+        }
     }
