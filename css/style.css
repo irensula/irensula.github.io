@@ -349,11 +349,14 @@ section {
 	padding: 80px 20%;
 	text-align: center;
 }
-.section-descr {
+.section-descr,
+.about-me {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 32px;
 	color: #021725;
+}
+.section-descr {
 	margin-bottom: 40px;
 }
 
