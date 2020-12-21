@@ -44,7 +44,6 @@
             width: 20%;
         }
     }
-
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
         section {
@@ -130,9 +129,8 @@
             font-size: 12px;
             line-height: 15px;
         }
-        
-    }
-
+     }
+    
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
         /* HEADER */
@@ -483,7 +481,7 @@
         iframe {
             height: 200px;
         }
-
+}
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
         .contacts-info {
@@ -496,3 +494,4 @@
     iframe {
             height: 180px;
         }  
+}
