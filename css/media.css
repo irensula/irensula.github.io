@@ -493,4 +493,6 @@
         .project-carousel {
             height: 180px;
         }
-    
+    iframe {
+            height: 150px;
+        }  
