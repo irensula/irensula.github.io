@@ -19,7 +19,9 @@
         .skill-info {
             text-align: justify;
         }
-        
+        iframe {
+            height: 350px;
+        }
         /* PROJECT PAGE */
          section.inner-page.project-page {
             padding: 50px 7.5%;
@@ -84,6 +86,9 @@
         .portfolio-gallery.blog-page li {
             height: 227px;
             width: 227px;
+        }
+	iframe {
+            height: 450px;
         }
         /* PORTFOLIO PAGE */
         section.portfolio {
@@ -226,7 +231,9 @@
         .last-post-info p:last-of-type {
             margin-bottom: 30px;
         }
-                		
+        iframe {
+            height: 350px;
+        }          		
         /* CONTACTS SECTION*/
         .contacts-list {
             padding: 20px 0;
@@ -274,7 +281,9 @@
         .last-post-img img {
            width: 100%;
         }
-                		
+        iframe {
+            height: 350px;
+        }          		
 		/* PORTFOLIO PAGE */
 		section.portfolio {
             padding: 60px 0 0 0;
@@ -471,7 +480,9 @@
          .articles-box article {
             padding: 15px 5%;
         }
-          }
+        iframe {
+            height: 200px;
+        }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
@@ -482,4 +493,4 @@
         .project-carousel {
             height: 180px;
         }
-    }
+    
