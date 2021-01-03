@@ -101,20 +101,53 @@
 			<section class="inner-page-post">
 				
 				<article class="article-box">
-					<div class="post-img  wow fadeIn">
-						<img src="../images/webdev10min.jpg">
-					</div>
+					
 					<div class="full-post">
 						<h2 class="subtitle middle wow slideInDown">What Is Web Development</h2>
-						<p class="post-date wow slideInDown">19 December 2020</p>
+						<p class="post-date wow slideInDown">3 January 2021</p>
 						<p class="post-text post-page wow slideInLeft">
-							Here is Web Development explained in 10 minutes.
+							<i>Aaron Jack is an excellent Web-Developer and he has his own awesome <a href="https://www.youtube.com/channel/UCRLEADhMcb8WUdnQ5_Alk7g" class="link-in-text">YouTube channal</a> about WebDev. <a href="https://www.youtube.com/watch?v=5YDVJaItmaY&t=31s&ab_channel=CodeDripbyAaronJack" class="link-in-text">Here</a> is his video about Web Development in 10 minutes which shows clearly all aspects of this area.</i>
 						</p>
-						
 						<iframe width="100%" height="500" src="https://www.youtube.com/embed/5YDVJaItmaY" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 						allowfullscreen>
 						</iframe>
+						<p class="post-text post-page wow slideInLeft">
+							Let’s dive into our stack starting with <strong>Front-End</strong>. Notably this is what the user sees and interacts with directly. It’s the portal from our app to the outside world. Most everyone is familiar with the Front-End Trinity: HTML, CSS and JavaScript. It all starts in the browser though when you visit a URL. This will kick off a request for index.html from Google severs.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							An <strong>HTML</strong> file only made up two things: text and more importantly <i>tags</i>. These tags can modify text add links, break our page into sections and add classes that we can apply styles to. We also have standalone tags essentially these tell the browser to load additional assets whether that’s an image or additional files.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							One such file might be a <strong>CSS</strong> file which creates an additional request of the Google servers and we receive it at all scan through and loaded HTML and add styling. This is done through selectors and attributes. Selectors find elements and keep you broad searching for all matching a tag or more narrow with a class or id. Attributes are the styles we apply. CSS isn’t logical, it’s mostly just practicing memorizing and applying what you’ve learned. For this reason, Google is your friend.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							Back to our HTML file, there’s one more important tag we need to talk about - it’s the script tag, which allows us to load <strong>JavaScript</strong> files from our server or elsewhere on the Internet. By the way servers that send these kinds of files, we’re talking about, are generally referred to as web servers. So, we see a script tag, we request our file, and it gets sent over. Let’s look at some of the staff JavaScript is responsible for with an example. Let’s say we have a button that logs us in. What triggers the login is known as a user event or a click on the button. To respond to this event, we need what’s known as a listener - some code that waits for the button to be clicked and responds accordingly. When the click happens JavaScript can update our HTML to show a loader, so JavaScript would update the appearance of our page, then send this login data to our server to validate it. JS lets us talk to our server without reloading the page. These can request whether it’s to send data or request more data are known as Ajax, asynchronous JavaScript and XML requests.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							In 2020 almost all Front-End developers are using <i>frameworks</i>. Here’s a few frameworks: <i>Svelte</i>, <i>Vue</i>, <i>React</i>, <i>Angular</i>. These frameworks don’t do anything JavaScript can’t do but they give us a better developer experience which when you’re making changes or fixing bugs is pretty much everything that being said. Browsers can only run JavaScript not framework code, so our framework code has to go through a build or bundle step which converts it to normal JavaScript. The important part is to choose one and stick with it. Although keep in mind that React and Angular have an order of magnitude more jobs than the other two.
+						</p>
+						<div class="post-img  wow fadeIn">
+							<img src="../images/webdev10min.jpg">
+						</div>
+						<p class="post-text post-page wow slideInLeft">
+							We have our Front-End but how does it talk to the Back-End? That’s the purpose of an API. Essentially our Front-End and Back-End may or may not be in different languages. So how do we standardize a way for these two to talk. We do that with what’s called an <strong>API</strong>. Most commonly <i>REST</i> APIs are used which follow the convention of combining a verb with a location. For example, we might want to get a list of accounts or add a new account. Alternatively, if we pass a parameter, we could get a specific count, modify it or delete it. REST does give us some nice standards but there’s no guarantees if anything changes our Front-End can get messed up, so there’s an alternative called <i>RPC</i> which sets rules in advance with something called a <i>Schema</i>. These make inputs and outputs explicit in advance. Now, how is data transferred? That’s done most commonly by sending strings back and forth through a protocol known as <i>HTTP</i>. Ideally, these strings can be read by any programming language. Two common formats are <i>JSON</i> and <i>XML</i>, and we convert data to a JSON string through a process called serialization.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							So, web development <strong>Back-Ends</strong>. Our Back-End application layer can glue together multiple different components we can talk to Front-Ends, other servers and databases. You can write web Back-Ends in pretty much any language, but the most popular are <i>Python</i>, <i>JavaScript</i>, <i>PHP</i> and <i>C#</i>. Back-End frameworks are commonplace too to make your life easier and here’s the most common one for each language: <i>Flask</i>, <i>Express</i>, <i>Laravel</i>, <i>ASP.NET</i>. If you’re wondering when we would talk to other servers Back-Ends are often broken into what’s known as <i>“services”</i>. As services this is just a pattern to separate logic that can make things easier to scale and to work on. Other than responding to API’s Back-End might do various other batch processes which are often done on a timer. One example of this could be web scraping.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							To talk to <strong>databases</strong> Back-Ends often use what’s known as an <i>ORM</i>. These just give us more semantic ways through query our database adds to it and so on. These are entire college courses on databases but let’s talk about them at a high level. There are two main types of multifunctional databases namely <i>SQL</i> and <i>NoSQL</i>. Each provides different strengths and guarantees. SQL databases are organized in a strict column representation format, that means to write or add to the database you have to adhere to the set of rules or it won’t work. These stricter rules allow you to do more complicated things when you’re reading from your database. Alternatively, NoSQL databases don’t really have rules. They just have collections which are groups of objects. So, a user object might have name and email, but it’s not enforced. These scale much better, but you have to be careful because there are no guarantees about the structure of data. Again, there are many more database principles that apply and what you use is totally circumstantial. The three most popular databases are probably <i>MySQL</i>, <i>Postgres</i> and <i>MongoDB</i>. Finally, you should know when we’re trying to scale up our application databases are usually the slowest and they’re the bottleneck and resolving. These scaling issues also has entire books written about it.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							Let’s touch on <strong>Web Security</strong>. Any Web App with the login will need to consider authorization and authentication. The login itself provides authentication. Authentication will usually give the user a string base token that is a random sequence of characters. This is then used on the server-side to validate each request. Authorization on the other hand defines different user roles, so if I’m an admin I would be able to do different things than a normal user.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							Let’s touch on <strong>infrastructure</strong> and <strong>networking</strong>. Data centres are pretty much where all servers and web services exist unless you have a dedicated server running at home that’s always on these servers are just computers without monitors that are constantly running. They can be controlled with <i>SSH</i> a direct way to control the machine from the command line, but the most of what they do is automated through scripts. You can group multiple servers into a private network, each server in a network is called a <i>node</i> and in private networks servers can communicate quickly and securely. Servers that talk to the outside world have more to worry about they’re usually set up with a reverse proxy. It’s a gateway that exposes specific ports to the outside world. A port just being a machine specific address a process is running on, so you might what to expose a REST API’s port, but not a database port.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							Nowadays most of these hardware managements is handled by companies like <i>Amazon Web Services</i> and <i>DigitalOcean</i> who run their own data centres and rent out space on demand. This is where the term Cloud Computing comes in. You can rent a fraction of a single server for an hourly or monthly cost. Cloud provides like AWS will usually offer a lot of additional free services that keep you on their platform. Cloud computing is expand beyond just having servers as a service though you could run individual functions for a very low cost on demand too, so if I want to send an email every time something happened in my Front-End I can put that in a cloud function. Moving on if everything after the Front-End section was not getting you that excited in this video, then you can actually now use an entire Back-End as a service. That means everything from database to API configuration to security is handled by the service. This means you can get apps up and running in a matter of hours and it’s really easy, one example is Firebase. 
+						</p>
 					</div>
 				</article>
 			
@@ -177,7 +210,7 @@
 		<!-- FOOTER -->
 		<footer>
 			<div class="copy">
-				<p>&copy; 2016-2020 Designed and Developed by Irina Sula</p>
+				<p>&copy; 2016-2021 Designed and Developed by Irina Sula</p>
 			</div>
 			<div class="mail-me">
 				<p>Feel free to comtact me: irensula@gmail.com</p>
