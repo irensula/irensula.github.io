@@ -23,7 +23,6 @@ a:hover {
 .main-title, .main-title.landing-name {
 	font-size: 80px;
 	line-height: 84px;
-	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
 	color: #fff;
@@ -360,6 +359,7 @@ section {
 	margin-bottom: 40px;
 }
 
+
 /* PORTFOLIO SECTION */
 section.portfolio {
 	padding: 80px 0;
@@ -473,7 +473,6 @@ section.portfolio {
 	vertical-align: top;
 	width: calc(50% - 4px);
 	height: 100%;
-	overflow: hidden;
 	left: -2px;
 	height: 443px;
 	overflow: hidden;
@@ -615,7 +614,27 @@ header.inner-header {
 	margin-bottom: 0;
 	text-align: justify;
 }
-
+iframe {
+	margin-bottom: 30px;
+}
+.link-in-text:link {
+	color: #d3b000;
+}
+.link-in-text:visited {
+	color: #d3b000; 
+}
+.link-in-text:hover {
+	color: #c0c0c0; 
+}
+.link-in-text:active {
+	color: #d3b000;
+}
+strong {
+	font-weight: bold;
+}
+i {
+	font-style: italic;
+}
 /* blog aside */
 .blog-aside {
 	display: inline-block;
