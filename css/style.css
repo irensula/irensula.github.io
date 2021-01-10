@@ -635,6 +635,10 @@ strong {
 i {
 	font-style: italic;
 }
+audio {
+	width: 100%;
+	color: linear-gradient(#e66465, #9198e5);
+}
 /* blog aside */
 .blog-aside {
 	display: inline-block;
