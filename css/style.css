@@ -639,6 +639,64 @@ audio {
 	width: 100%;
 	color: linear-gradient(#e66465, #9198e5);
 }
+/* tags table */
+h3 {
+	color: #666;
+	font-weight: 600;
+	margin-bottom: 12px;
+	text-align: center;
+}
+h4 {
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+}
+.table-box {
+	color: #9c9c9c;
+	font-size: 18px;
+	line-height: 23px;
+	padding: 50px 35%;
+	position: absolute;
+	width: 140%;
+	bottom: 0;
+	right: -18px;
+	display: none;
+	background-color: #fff;
+}
+table {
+	border: 1px solid #9c9c9c;
+	width: 100%;
+}
+caption {
+	text-align: center;
+	color: #666;
+	margin: 22px 0 8px 0;
+	font-weight: 900;
+	font-size: 25px;
+}
+thead td {
+	color: #202020;
+	padding: 5px 0 5px;
+	font-weight: 900px;
+}
+tr {
+	border: 1px solid #9c9c9c;
+}
+td {
+	height: 24px;
+	padding-top: 5px;
+	
+}
+.first-column {
+	width: 30%;
+	padding-left: 10px;
+}
+.colored-tr {
+	background-color: #DCDCDC;
+} 
+.wide-column {
+	width: 70%;
+}
 /* blog aside */
 .blog-aside {
 	display: inline-block;
