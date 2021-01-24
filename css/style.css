@@ -57,7 +57,7 @@ a:hover {
 	font-size: 44px;
 	line-height: 47px;
 	color: rgba(2. 25. 37. 0.7);
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	margin-bottom: 40px;
 	color: #505d68;
 }
@@ -472,9 +472,8 @@ section.portfolio {
 	display: inline-block;
 	vertical-align: top;
 	width: calc(50% - 4px);
-	height: 100%;
 	left: -2px;
-	height: 443px;
+	height: 438px;
 	overflow: hidden;
 }
 .last-post-info {
@@ -590,6 +589,7 @@ header.inner-header {
 	width: 100%;
 	height: auto;
 }
+
 .post-descr {
 	text-align: left;
 	color: rgba(2, 27, 37, 0.7);
@@ -638,6 +638,13 @@ i {
 audio {
 	width: 100%;
 	color: linear-gradient(#e66465, #9198e5);
+}
+.not-supported {
+	color: #ff392f;
+	opacity: 0.5;
+}
+.important {
+	color: #ff392f;
 }
 /* tags table */
 h3 {
@@ -725,7 +732,7 @@ td {
 	color: #021725;
 	text-decoration: none;
 	margin-bottom: 14px;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 }
 
 /* PORTFOLIO PAGE */
