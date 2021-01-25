@@ -73,7 +73,6 @@ a:hover {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 17px;
-	text-transform: capitalize;
 	color: #021725;
 	padding: 24px 50px;
 	border: 1px solid #000;
@@ -97,6 +96,10 @@ a:hover {
 	background-color: rgba(212,175,55,0.5);
 	background-color: #d4af37;
 	color: #000;
+	outline: 0;
+}
+.button::-moz-focus-inner {
+  border: 0;
 }
 .button:hover {
 	background-color: rgba(212,175,55,0.5);
@@ -104,6 +107,7 @@ a:hover {
 .button:active,
 .button.active {
 	background-color: #d4af37;
+	border: none;
 }
 .button.inner {
 	font-size: 16px;
@@ -703,6 +707,18 @@ td {
 } 
 .wide-column {
 	width: 70%;
+}
+.note-paragraph {
+	padding-left: 20px;
+	border-left: 3px solid #d4af37;
+}
+.html-in-sublime-picture, .html-in-chrome-picture {
+	display: none;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.html-in-sublime-picture-button, .html-in-chrome-picture-button {
+	width: 150px;
 }
 /* blog aside */
 .blog-aside {
