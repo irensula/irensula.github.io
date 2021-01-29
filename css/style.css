@@ -114,7 +114,9 @@ a:hover {
 	line-height: 19px;
 	padding: 16px 56px;
 }
-
+.blog-button {
+	margin-bottom: 30px;
+}
 /* social buttons */
 .social-buttons {
 	margin: 0 10% 70px 10%;
