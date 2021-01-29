@@ -18,7 +18,7 @@ $(document).ready(function(){
         $('.jcarousel').jcarousel('scroll', '+=1');
     });
 });
-
+//buttons in the post about HTML
 $(document).ready(function () {
     $('.html-in-sublime-button').click(function (e) {
         $(this).toggleClass('active');
@@ -43,6 +43,21 @@ $(document).ready(function () {
      
     $('body').click(function () {
         var link = $('.html-in-chrome-button');
+            if (link.hasClass('active')) {
+            link.click();
+            }
+        });
+    });
+//button in the blog
+$(document).ready(function () {
+    $('.blog-button').click(function (e) {
+        $(this).toggleClass('active');
+        $('.hidden-post').toggle();       
+        e.stopPropagation();
+    });
+     
+    $('body').click(function () {
+        var link = $('.blog-button');
             if (link.hasClass('active')) {
             link.click();
             }
