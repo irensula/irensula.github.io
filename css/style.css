@@ -511,7 +511,7 @@ section.portfolio {
 	font-size: 19px;
 	line-height: 22px;
 	color: #505d68;
-	padding-bottom: 45px;
+	padding-bottom: 15px;
 }
 .contacts-list li {
 	padding-top: 20px;
@@ -529,13 +529,12 @@ section.portfolio {
 .contacts-list li i {
 	font-size: 50px;
 	display: inline-block;
-	margin: 30px;
+	margin: 26px 40px 40px 40px;
 }
 .skills-list li p {
 	font-size: 13px;
 	line-height: 32px;
 }
-
 /* FOOTER */
 footer {
 	background-color: #eee; 
