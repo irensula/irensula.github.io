@@ -90,8 +90,8 @@ let isAlive = setInterval (function(){
     let carTop = parseInt(window.getComputedStyle(car).getPropertyValue("top"));
     let lightsLeft = parseInt(window.getComputedStyle(lights).getPropertyValue("left"));
     
-    if (lightsLeft < 85 && lightsLeft > 15 && carTop >= 135) {
+    if (lightsLeft < 83 && lightsLeft > 17 && carTop >= 135) {
         alert("GAME OVER!!")
     }
-}, 10)
+}, 20)
 
