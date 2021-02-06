@@ -1,5 +1,5 @@
  /*==========  Non-Mobile First Method  ==========*/
-
+    
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
         .landing-header .main-menu {
@@ -43,7 +43,23 @@
             margin-right: 7%;
             width: 20%;
         }
+        /* GAME */
+        .game {
+            width: 450px;
+        }
+        #lights {
+            left: 420px;
+        }
+        @keyframes lightsMov {
+        0% {
+            left: 420px;
+         }
+        100% {
+            left: -20px;
+            }
+        }
     }
+
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
         section {
@@ -86,7 +102,7 @@
             height: 227px;
             width: 227px;
         }
-	iframe {
+        iframe {
             height: 450px;
         }
         /* PORTFOLIO PAGE */
@@ -129,8 +145,23 @@
             font-size: 12px;
             line-height: 15px;
         }
-     }
-    
+        /* GAME */
+        .game {
+            width: 500px;
+        }
+        #lights {
+            left: 480px;
+        }
+        @keyframes lightsMov {
+        0% {
+            left: 480px;
+         }
+         100% {
+            left: -20px;
+        }
+        }
+    }
+
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
         /* HEADER */
@@ -229,9 +260,8 @@
         .last-post-info p:last-of-type {
             margin-bottom: 30px;
         }
-        iframe {
-            height: 350px;
-        }          		
+        
+                		
         /* CONTACTS SECTION*/
         .contacts-list {
             padding: 20px 0;
@@ -281,7 +311,7 @@
         }
         iframe {
             height: 350px;
-        }          		
+        }      		
 		/* PORTFOLIO PAGE */
 		section.portfolio {
             padding: 60px 0 0 0;
@@ -306,7 +336,7 @@
             width: 100%;
         }
         .subtitle.middle {
-            font-size: 24px;
+            font-size: 28px;
             line-height: 27px;
             margin-bottom: 15px;
             padding: 0;
@@ -378,6 +408,21 @@
         }
         footer div:first-of-type {
             margin-bottom: 20px;
+        }
+        /* GAME */
+        .game {
+            width: 300px;
+        }
+        #lights {
+            left: 280px;
+        }
+        @keyframes lightsMov {
+        0% {
+            left: 280px;
+         }
+         100% {
+            left: -20px;
+        }
         }
 	}
     /* Extra Small Devices, Phones */ 
@@ -455,6 +500,7 @@
         .button.blog-descr-btn {
             display: none;
         }
+
 		.portfolio-gallery.blog-page li {
             width: 100%;
             height: auto;
@@ -481,7 +527,22 @@
         iframe {
             height: 200px;
         }
-}
+        /* GAME */
+        .game {
+            width: 250px;
+        }
+        #lights {
+            left: 230px;
+        }
+        @keyframes lightsMov {
+        0% {
+            left: 230px;
+         }
+         100% {
+            left: -20px;
+         }
+        }
+    }
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
         .contacts-info {
@@ -491,7 +552,19 @@
         .project-carousel {
             height: 180px;
         }
-    iframe {
-            height: 180px;
-        }  
-}
+        /* GAME */
+        .game {
+            width: 150px;
+        }
+        #lights {
+            left: 130px;
+        }
+        @keyframes lightsMov {
+        0% {
+            left: 130px;
+         }
+         100% {
+            left: -20px;
+        }
+        }
+    }
