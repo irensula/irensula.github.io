@@ -411,14 +411,14 @@
         }
         /* GAME */
         .game {
-            width: 300px;
+            width: 350px;
         }
         #lights {
-            left: 280px;
+            left: 330px;
         }
         @keyframes lightsMov {
         0% {
-            left: 280px;
+            left: 330px;
          }
          100% {
             left: -20px;
@@ -459,8 +459,8 @@
             line-height: 31px;
         }
         .subtitle {
-            font-size: 22px;
-            line-height: 25px;
+            font-size: 28px;
+            line-height: 31px;
             margin-bottom: 20px;
         }
 				
@@ -531,7 +531,17 @@
         .game {
             width: 250px;
         }
+        #car {
+            width: 45px;
+            height: 25px;
+            background-size: 45px 25px;
+            top: 149px;
+        }
         #lights {
+            width: 10px;
+            height: 22px;
+            background-size: 10px 22px;
+            top: 105px;
             left: 230px;
         }
         @keyframes lightsMov {
@@ -551,20 +561,5 @@
         }
         .project-carousel {
             height: 180px;
-        }
-        /* GAME */
-        .game {
-            width: 150px;
-        }
-        #lights {
-            left: 130px;
-        }
-        @keyframes lightsMov {
-        0% {
-            left: 130px;
-         }
-         100% {
-            left: -20px;
-        }
         }
     }
