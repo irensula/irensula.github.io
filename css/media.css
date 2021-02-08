@@ -409,22 +409,32 @@
         footer div:first-of-type {
             margin-bottom: 20px;
         }
-        /* GAME */
+       /* GAME */
         .game {
-            width: 350px;
+            width: 250px;
+        }
+        #car {
+            width: 45px;
+            height: 25px;
+            background-size: 45px 25px;
+            top: 175px;
         }
         #lights {
-            left: 330px;
+            width: 10px;
+            height: 22px;
+            background-size: 10px 22px;
+            top: 178px;
+            left: 240px;
         }
         @keyframes lightsMov {
         0% {
-            left: 330px;
+            left: 240px;
          }
          100% {
-            left: -20px;
+            left: -10px;
+         }
         }
-        }
-	}
+    }
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
         /* HEADER */
