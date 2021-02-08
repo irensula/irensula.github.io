@@ -146,6 +146,9 @@
             line-height: 15px;
         }
         /* GAME */
+        .game-wrapper {
+            display: none;
+        }
         .game {
             width: 500px;
         }
@@ -409,32 +412,22 @@
         footer div:first-of-type {
             margin-bottom: 20px;
         }
-       /* GAME */
+        /* GAME */
         .game {
-            width: 250px;
-        }
-        #car {
-            width: 45px;
-            height: 25px;
-            background-size: 45px 25px;
-            top: 175px;
+            width: 350px;
         }
         #lights {
-            width: 10px;
-            height: 22px;
-            background-size: 10px 22px;
-            top: 178px;
-            left: 240px;
+            left: 330px;
         }
         @keyframes lightsMov {
         0% {
-            left: 240px;
+            left: 330px;
          }
          100% {
-            left: -10px;
-         }
+            left: -20px;
         }
-    }
+        }
+	}
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
         /* HEADER */
@@ -545,21 +538,21 @@
             width: 45px;
             height: 25px;
             background-size: 45px 25px;
-            top: 149px;
+            top: 175px;
         }
         #lights {
             width: 10px;
             height: 22px;
             background-size: 10px 22px;
-            top: 105px;
-            left: 230px;
+            top: 178px;
+            left: 240px;
         }
         @keyframes lightsMov {
         0% {
-            left: 230px;
+            left: 240px;
          }
          100% {
-            left: -20px;
+            left: -10px;
          }
         }
     }
