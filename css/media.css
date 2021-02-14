@@ -434,6 +434,9 @@
 		.logo {
             width: 20%;
         }
+	    .main-button-wraper {
+		    display: none;
+	    }
         .logo span {
             display: none;
         }
