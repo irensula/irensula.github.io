@@ -2,11 +2,22 @@
     
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-        .landing-header .main-menu, .burger-button-wrapper {
+        .landing-header .main-menu {
             display: inline-block;
         }
         nav {
             display: none;
+        }
+        .logo {
+            width: 60%;
+        }
+        .main-button-wrapper {
+            width: 25%;
+            padding: 14px 10px;
+        }
+        .main-menu {
+            width: 10%;
+            padding-left: 10px;
         }
         section {
             padding: 50px 15%;
@@ -68,19 +79,13 @@
         section.portfolio.landing-page {
             padding: 50px 0 50px 0;
         }
+        .main-menu {
+            width: 15%;
+        }
         .subtitle {
             font-size: 40px;
             line-height: 43px;
             margin-bottom: 30px;
-        }
-        .logo {
-            padding: 24px 5%;
-            width: calc(20% - 4px);
-        }
-        .main-menu {
-            padding: 24px 2% 24px 10%;
-            width: calc(36% - 4px);
-            float: right;
         }
         .portfolio-gallery.landing-page {
             margin-bottom: 30px;
@@ -177,20 +182,10 @@
         }
         /* MENU */
         .logo {
-            padding: 24px 5%;
-            width: calc(40% - 4px);
+            width: 30%;
         }
         .main-menu {
-            padding: 24px 5%;
-            width: calc(20% - 4px)
-        }
-        .burger-button-wrapper {
-            display: none;
-        }
-        .small-button-wrapper {
-            display: inline-block;
-            float: right;
-            margin: 79px 5%;
+            width: 30%;
         }
         .dropdown-menu {
             min-width: 160px;
@@ -436,7 +431,10 @@
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
         /* HEADER */
-		.logo span {
+		.logo {
+            width: 20%;
+        }
+        .logo span {
             display: none;
         }
         .main-title, .main-title.landing-name {
