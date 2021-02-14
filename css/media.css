@@ -326,7 +326,6 @@
             margin-bottom: 40px;
             padding: 0 10%;
         }
-        
          /* PROJECT PAGE */
         section.inner-page.project-page {
             padding: 5px 2.5%;
@@ -431,27 +430,29 @@
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
         /* HEADER */
-		.logo {
-            width: 20%;
-        }
-	.logo span {
+		.logo span {
             display: none;
         }
-	    #toggleThemeButton {
-            width: 120px;
+        #toggleThemeButton {
+            width: 114px;
             word-wrap: break-word;
         }
-	    .inner-button-wraper {
+        .main-button-wrapper {
+            padding: 10px 0; 
+        }
+        .inner-button-wraper {
             margin: 30px calc(50% - 60px);
         }
         .main-title, .main-title.landing-name {
             font-size: 29px;
             line-height: 32px;
         }
+        .main-menu {
+            width: 15%;
+        }
         .menu-link-drop {
             display: none;
-        }
-				
+        }		
 		/* BUTTONS */
         .button, .button.inner {
             padding: 24px 0;
@@ -465,7 +466,6 @@
             margin: 0 30px 40px 30px;
             width: calc(100% - 60px);
         }
-		
 		/* TITLES */
         .subtitle.middle {
             font-size: 28px;
@@ -513,7 +513,6 @@
         .button.blog-descr-btn {
             display: none;
         }
-
 		.portfolio-gallery.blog-page li {
             width: 100%;
             height: auto;
