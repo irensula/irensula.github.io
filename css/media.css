@@ -437,6 +437,10 @@
 	.logo span {
             display: none;
         }
+	    #toggleThemeButton {
+            width: 120px;
+            word-wrap: break-word;
+        }
         .main-title, .main-title.landing-name {
             font-size: 29px;
             line-height: 32px;
