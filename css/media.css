@@ -434,9 +434,9 @@
 		.logo {
             width: 20%;
         }
-	    .main-button-wraper {
-		    display: none;
-	    }
+	.main-button-wraper, #toggleThemeButton {
+            display: none;
+        }
         .logo span {
             display: none;
         }
