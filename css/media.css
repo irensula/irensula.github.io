@@ -434,10 +434,7 @@
 		.logo {
             width: 20%;
         }
-	.main-button-wraper, #toggleThemeButton {
-            display: none;
-        }
-        .logo span {
+	.logo span {
             display: none;
         }
         .main-title, .main-title.landing-name {
