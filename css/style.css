@@ -162,11 +162,13 @@ a:hover {
 	overflow: hidden;
 	position: relative;
 }
-.landing-header .main-menu, .burger-button-wrapper, .small-button-wrapper {
+.landing-header .main-menu {
 	display: none;
 }
 /* LOGO & NAVIGATION */
 .logo-nav-box {
+	display: flex;
+	justify-content: space-between;
 	background-color: rgba(0,0,0,0.5);
 	width: 100%;
 	left: 0;
@@ -180,12 +182,17 @@ a:hover {
 	display: inline-block;
 	vertical-align: top;
 	padding: 24px 4%;
-	width: calc(17% - 4px);
+	width: 40%;
 	font-size: 18px;
 	line-height: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+.main-button-wrapper {
+	display: inline-block;
+	width: 15%;
+	padding: 14px 0;
 }
 .logo a:before {
 	content: "\f14a";
@@ -194,10 +201,11 @@ a:hover {
 	padding-right: 10px;
 }
 nav {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 	vertical-align: top;
-	padding: 24px 4%;
-	width: calc(67% - 4px);
+	padding: 24px 4% 24px 2%;
+	width: 45%;
 	text-align: right;
 }
 nav a {
@@ -211,9 +219,6 @@ nav a:hover {
 }
 nav a:active {
 	color: #fff;
-}
-.main-button-wrapper {
-	display: inline-block;
 }
 .logo a:hover {
 	color: #d4af37;
