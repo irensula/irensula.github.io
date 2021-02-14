@@ -2,7 +2,7 @@
     
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-        .landing-header .main-menu {
+        .landing-header .main-menu, .burger-button-wrapper {
             display: inline-block;
         }
         nav {
@@ -74,17 +74,17 @@
             margin-bottom: 30px;
         }
         .logo {
-            padding: 24px 10%;
-            width: calc(40% - 4px);
+            padding: 24px 5%;
+            width: calc(20% - 4px);
         }
         .main-menu {
-            padding: 24px 10%;
-            width: calc(20% - 4px)
+            padding: 24px 2% 24px 10%;
+            width: calc(36% - 4px);
+            float: right;
         }
         .portfolio-gallery.landing-page {
             margin-bottom: 30px;
         }
-        
         .last-post-img {
             height: 443px;
         }
@@ -177,12 +177,20 @@
         }
         /* MENU */
         .logo {
-            padding: 24px 10%;
+            padding: 24px 5%;
             width: calc(40% - 4px);
         }
         .main-menu {
-            padding: 24px 10%;
+            padding: 24px 5%;
             width: calc(20% - 4px)
+        }
+        .burger-button-wrapper {
+            display: none;
+        }
+        .small-button-wrapper {
+            display: inline-block;
+            float: right;
+            margin: 79px 5%;
         }
         .dropdown-menu {
             min-width: 160px;
@@ -246,14 +254,10 @@
 		/* BLOG SECTION */
         .last-post-box {
             margin-bottom: 30px;
-
         }
-		.last-post-img {
+		.last-post-img-media {
             display: block;
             width: 100%;
-        }
-        .last-post-img {
-            height: 226px;
         }
         .last-post-info {
             width: 100%;
@@ -263,8 +267,9 @@
         .last-post-info p:last-of-type {
             margin-bottom: 30px;
         }
-        
-                		
+        .last-post-img {
+            display: none;
+        }                		
         /* CONTACTS SECTION*/
         .contacts-list {
             padding: 20px 0;
@@ -309,7 +314,7 @@
         .portfolio-gallery.blog-page li:nth-child(4) {
             display: none;
         }
-        .last-post-img img {
+        .last-post-img-media img {
            width: 100%;
         }
         iframe {
@@ -497,7 +502,7 @@
         .last-post-box {
             margin-bottom: 0;
         }
-        .last-post-img {
+        .last-post-img-media {
             height: 116px;
         }
         .button.blog-descr-btn {
