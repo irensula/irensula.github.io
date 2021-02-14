@@ -1079,9 +1079,9 @@ body.dark .contacts-list li a {
 body.dark main {
 	background-color: #000;
 }
-.button-wrapper {
-	display: flex;	
-  	justify-content: center;
+.inner-button-wraper {
+	margin: 30px calc(50% - 95px);
+	background-color: rgba(0,0,0,0.5);
 }
 /*DARK MODE BUTTON*/
 #toggleThemeButton {
