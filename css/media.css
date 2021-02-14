@@ -441,6 +441,9 @@
             width: 120px;
             word-wrap: break-word;
         }
+	    .inner-button-wraper {
+            margin: 30px calc(50% - 60px);
+        }
         .main-title, .main-title.landing-name {
             font-size: 29px;
             line-height: 32px;
