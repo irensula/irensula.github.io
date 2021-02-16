@@ -1082,6 +1082,7 @@ body.dark main {
 .inner-button-wraper {
 	margin: 30px calc(50% - 95px);
 	background-color: rgba(0,0,0,0.5);
+	border-radius: 50px;
 }
 /*DARK MODE BUTTON*/
 #toggleThemeButton {
@@ -1093,6 +1094,7 @@ body.dark main {
 	color: #e5e5e5;
 	padding: 10px;
 	border: 1px solid #e5e5e5;
+	border-radius: 50px;
 	background-color: transparent;
 	text-decoration: none;
 	outline: 0;
