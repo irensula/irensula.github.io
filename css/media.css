@@ -441,7 +441,7 @@
             padding: 10px 0; 
         }
         .inner-button-wraper {
-            margin: 30px calc(50% - 60px);
+           margin: 30px calc(50% - 56px);
         }
         .main-title, .main-title.landing-name {
             font-size: 29px;
