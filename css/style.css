@@ -18,7 +18,13 @@ a.active,
 a:hover {
 	color: #d4af37;
 }
-
+.unodered-list {
+	font-family: serif;
+	font-size: 16px;
+	line-height: 30px;
+	margin-left: 40px;
+	list-style-type: disc;
+}
 /* TITLES */
 .main-title, .main-title.landing-name {
 	font-size: 80px;
@@ -491,7 +497,7 @@ section.portfolio {
 	vertical-align: top;
 	width: calc(50% - 4px);
 	left: -2px;
-	height: 100%;
+	height: 450px;
 	overflow: hidden;
 }
 .last-post-img-media {
@@ -629,7 +635,7 @@ header.inner-header {
 	font-family: serif;
 	font-size: 16px;
 	line-height: 24px;
-	margin-bottom: 66px;
+	margin-bottom: 30px;
 }
 .articles-box.post .post-text {
 	margin-bottom: 0;
@@ -778,6 +784,7 @@ h4 {
 table {
 	border: 1px solid #9c9c9c;
 	width: 100%;
+	margin-bottom: 30px;
 }
 caption {
 	text-align: center;
@@ -808,9 +815,31 @@ td {
 .wide-column {
 	width: 70%;
 }
+.css-specificity {
+	width: 500px;
+}
+.css-first-column {
+	background: #DCDCDC;
+	width: 60%;
+	border-right: 1px solid #9c9c9c;
+	padding-left: 10px;
+}
+.second-column {
+	padding-left: 10px;
+}
 .note-paragraph {
 	padding-left: 20px;
 	border-left: 3px solid #d4af37;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	line-height: 18px;
+	background: #fff;
+}
+mark {
+	background: #f6efd7;
+}
+.inner-padding {
+	padding-left: 30px;
 }
 .html-in-sublime-picture, .html-in-chrome-picture {
 	display: none;
@@ -825,7 +854,6 @@ h2 {
 	margin-bottom: 10px;
 	font-size: 28px;
 }
-
 /* Project Carousel */
 .project-carousel {
 	display: inline-block;
