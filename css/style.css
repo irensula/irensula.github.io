@@ -816,7 +816,13 @@ td {
 	width: 70%;
 }
 .css-specificity {
-	width: 500px;
+	width: 400px;
+}
+.css-first-column {
+	background: #DCDCDC;
+	width: 70%;
+	border-right: 1px solid #9c9c9c;
+	padding-left: 10px;
 }
 .css-first-column {
 	background: #DCDCDC;
