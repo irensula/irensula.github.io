@@ -367,6 +367,9 @@
         .post-inner-img {
             width: 100%;
         }
+	.css-specificity {
+            width: 100%;
+        }
         /* CONTACTS PAGE */
         .section-wrapper.contact-us {
 		padding: 0;
