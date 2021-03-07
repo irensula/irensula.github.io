@@ -137,7 +137,7 @@
 }
 /* The third style */
 #changecss.css3 {
-  background: url(../images/css31.jfif) center;
+  background: url(../images/css31.jpg) center;
   font-family: 'Lato', sans-serif;
   color: #000;
 }
@@ -145,7 +145,7 @@
 	font-size: 8em;
 	padding-top: 55%;
 	display: inline-block;
-	margin-left: 15%;
+	margin-left: 5%;
 	color: #01579b;
 	opacity: 1;
 }
