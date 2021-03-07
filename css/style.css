@@ -1058,7 +1058,8 @@ h2 {
 	}
 }
 /*DARK MODE*/
-body.dark {
+body.dark,
+body.dark .note-paragraph {
 	background-color: #000;
 }
 body.dark .inner-page-post {
