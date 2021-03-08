@@ -66,53 +66,6 @@
 	background-color: #ff0c00;
 	border: none;
 }
-@media only screen and (max-width : 1200px) {
-#changecss h2 {
-	padding: 2% 0 0 1%;
-	display: block;
-}
-#changecss h3 {
-	padding-top: 2%;
-	display: block;
-	}
-}	
-    @media only screen and (max-width : 992px) {
-#changecss h2 {
-	padding: 8% 0 0 21%;
-	display: inline-block;
-}
-#changecss h3 {
-	padding-top: 5%;
-	display: inline-block;
-}
-}
- @media only screen and (max-width : 820px) {
-#changecss h2 {
-	padding: 2% 0 0 1%;
-	display: block;
-}
-#changecss h3 {
-	padding-top: 2%;
-	display: block;
-	}
-}	
- @media only screen and (max-width : 480px) {
- 	#changecss button {
-	width: 20%;
-	font-size: 11px;
-	line-height: 14px;
-	padding: 2% 1%;
- }
- #changecss div {
-	left: -43%;
-	top: 50%;
-}
-#changecss h2 {
-	padding: 0px;
-	margin: 0px;
-	display: block;
-}
-}
 /* The second style */
 #changecss.css2 {
   background: url(../images/css2.jpg) center;
@@ -142,12 +95,12 @@
 	transform: rotate(0deg);
 	position: absolute;
 	top: 2%;
+	width: 50%;
+	padding-left: 50%;
 	left: -1%;
-	width: 100%;
-	padding-left: 43%;
 }
 #changecss.css2 button {
-	width: 135px;
+	width: 30%;
 	background-color: #abddfc;
 	font-weight: 600;
 	font-size: 12px;
@@ -248,4 +201,69 @@
 #changecss.css3 button.active {
 	background-color: #fcf7b9;
 	border: none;
+}
+/* MEDIA */
+@media only screen and (max-width : 1200px) {
+#changecss h2 {
+	padding: 2% 0 0 1%;
+	display: block;
+}
+#changecss h3 {
+	padding: 2% 0 0 1%;
+	display: block;
+	margin-left: 5%;
+}
+#changecss.css2 div {
+	width: 60%;
+	padding-left: 40%;
+	left: -1%;
+}
+}	
+@media only screen and (max-width : 992px) {
+#changecss h2 {
+	padding: 8% 0 0 21%;
+	display: inline-block;
+}
+#changecss h3 {
+	padding-top: 2%;
+	display: inline-block;
+	margin-left: 5%;
+}
+}
+ @media only screen and (max-width : 820px) {
+#changecss h2 {
+	padding: 2% 0 0 1%;
+	display: block;
+}
+#changecss h3 {
+	padding-top: 2%;
+	display: block;
+	}
+#changecss.css2 div {
+	width: 60%;
+	padding-left: 40%;
+	left: -1%;
+}
+}	
+ @media only screen and (max-width : 480px) {
+ 	#changecss button {
+	width: 20%;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 2% 1%;
+ }
+ #changecss div {
+	left: -43%;
+	top: 50%;
+}
+#changecss h2 {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+#changecss.css2 div {
+	width: 80%;
+	padding-left: 20%;
+	left: -1%;
+}
 }
