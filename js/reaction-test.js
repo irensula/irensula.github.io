@@ -11,9 +11,9 @@ function getRandomColor() {
 
 var makeShapeVisible = function(){
 	var shape = document.getElementById("shape");
-	var top = Math.random() * 400;
-	var left = Math.random() * 700;
-	var width = Math.random() * 200 + 50;
+	var top = Math.random() * 200;
+	var left = Math.random() * 500;
+	var width = Math.random() * 150 + 50;
 	shape.style.top = top + "px";
 	shape.style.left = left + "px";
 	shape.style.width = width + "px";
