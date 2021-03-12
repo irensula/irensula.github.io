@@ -836,6 +836,12 @@ mark {
 .inner-padding {
 	padding-left: 30px;
 }
+#shape {
+	width: 150px;
+	height: 150px;
+	display: none;
+	position: relative;
+}
 .html-in-sublime-picture, .html-in-chrome-picture {
 	display: none;
 	width: 100%;
