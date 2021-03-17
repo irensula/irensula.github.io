@@ -1,29 +1,3 @@
-/* how to find out color of the element!!!
-
-	$("li").click(function() {
-		console.log($(this).css("color"));
-	})
-
-*/
-
-/*
-$("li").click(function() {
-	if($(this).css("color") === "rgb(128, 128, 128)") {
-		$(this).css({
-		color: "black",
-		textDecoration: "none"
-	});
-	} else {
-		$(this).css({
-		color: "grey",
-		textDecoration: "line-through"
-	});
-	}
-})
-*/
-
-//the same code but much shorter:
-
 $("#to-do-list-ul").on("click", "li", function() {
 	$(this).toggleClass("done");
 })
