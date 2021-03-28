@@ -367,7 +367,7 @@
         .post-inner-img {
             width: 100%;
         }
-	.css-specificity {
+        .css-specificity {
             width: 100%;
         }
         /* CONTACTS PAGE */
@@ -444,7 +444,7 @@
             padding: 10px 0; 
         }
         .inner-button-wraper {
-           margin: 30px calc(50% - 56px);
+            margin: 30px calc(50% - 56px);
         }
         .main-title, .main-title.landing-name {
             font-size: 29px;
@@ -489,12 +489,10 @@
         /* GALLERY SECTION */
         .portfolio-gallery li {
             width: 100%;
-            height: auto;
-            margin-bottom: 0;
         }
         .portfolio-gallery li img {
             width: 100%;
-            height: auto;
+            height: 300px;
         }
         .portfolio-gallery.landing-page li:nth-child(4),
         .portfolio-gallery.landing-page li:nth-child(5),
