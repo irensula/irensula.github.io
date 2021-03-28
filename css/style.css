@@ -429,7 +429,7 @@ section.portfolio {
     transform: scaleX(1);
 }
 .portfolio-gallery li a:after {
-	content: 'Click';
+	content: 'Go to Projects';
 	background-color: #d4af37;
 	color: #fff;
 	width: 150px;
@@ -667,6 +667,22 @@ header.inner-header {
 	color: #021725;
 	text-decoration: none;
 	margin-bottom: 14px;
+}
+.gradient-img-1 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 8%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-2 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 35%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-3 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 62%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-4 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 90%, rgba(0,212,255,1) 100%);
 }
 
 /* PORTFOLIO PAGE */
