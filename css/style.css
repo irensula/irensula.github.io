@@ -735,7 +735,7 @@ iframe {
 .link-in-text:active {
 	color: #d3b000;
 }
-strong {
+.strong, strong {
 	font-weight: bold;
 }
 i {
@@ -858,7 +858,7 @@ mark {
 }
 h2 {
 	color: #d3b000;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-size: 28px;
 }
 /* Project Carousel */
@@ -1197,4 +1197,22 @@ body.dark .button.inner:hover {
 	color: #fff;
 	border: 1px solid #fff;
 	outline: 0;
+}
+.unordered-list {
+	margin-bottom: 30px;
+}
+.unordered-list li {
+	margin-left: 30px;
+	font-family: serif;
+	font-size: 16px;
+    line-height: 24px;
+}
+.fas.fa-circle {
+	color: #d3b000;
+	font-size: 8px;
+	margin-right: 10px;
+	vertical-align: 2px;
+}
+.full-post h3 {
+	text-align: left;
 }
