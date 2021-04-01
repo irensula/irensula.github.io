@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootsrtap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/02135387da.js" crossorigin="anonymous"></script>
+
+	<title>City of Tampere</title>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+    		<a class="navbar-brand" href="#">
+      			<img src="images/gerb.png" alt="" height="50">
+    		</a>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+    		</button>
+    		<div class="collapse navbar-collapse" id="navbarNav">
+      			<ul class="navbar-nav">
+      				<li class="nav-item">
+			          <a class="nav-link" href="#"><span class="marked">Tampere</span></a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">History</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Culture</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Events</a>
+			        </li>
+			        <li class="nav-item dropdown">
+        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        					More
+        				</a>
+        					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        						<li><a class="dropdown-item" href="#">Sightseeings</a></li>
+            					<li><a class="dropdown-item" href="#">Restaurants</a></li>
+            					<li><a class="dropdown-item" href="#">Nature</a></li>
+            					<li><a class="dropdown-item" href="#">Entertainment</a></li>
+            					<li><a class="dropdown-item" href="#">Child-friendly</a></li>
+          					</ul>
+    				</li>
+      			</ul>
+    		</div>
+		</div>
+	</nav>
+
+	<!-- Carousel -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 3"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		    <div class="carousel-item active">
+			    <img src="images/tampere-img-1.jpg" class="d-block w-100" alt="...">
+			    <div class="carousel-caption">
+			    	<h2>Discover the wonderful city of <span class="marked">Tampere</span></h2>
+        			<p>Find here new experiences, activities, culture and accommodations</p>
+      			</div>
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="images/tampere-img-2.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="images/tampere-img-3.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="images/tampere-img-4.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="images/tampere-img-6.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="images/tampere-img-7.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<img src="images/tampere-img-8.jpg" class="d-block w-100" alt="...">
+		    </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<!-- Card Group -->
+	<div class="card-group">
+		<div class="card">
+    		<img src="images/nasinneula.jpg" class="card-img-top" alt="...">
+    		<div class="card-body">
+  				<h5 class="card-title">Näsinneula</h5>
+    			<p class="card-text">Näsinneula ("The Needle of Näsi") is an observation tower in Tampere, overseeing Lake Näsijärvi. It was built in 1970–1971 and was designed by Pekka Ilveskoski. It is the tallest free-standing structure in Finland and at present the tallest observation tower in the Nordic countries at a height of 168 metres. It is located in the Särkänniemi amusement park. There is a revolving restaurant in the tower 124 metres above the ground; one revolution takes 45 minutes. The design of Näsinneula was inspired by the Space Needle in Seattle. </p>
+    		</div>
+    		<div class="card-footer">
+      			<small class="text-muted">Last updated 3 mins ago</small>
+    		</div>
+  		</div>
+  		<div class="card">
+    		<img src="images/finlayson.jpg" class="card-img-top" alt="...">
+    		<div class="card-body">
+		    	<h5 class="card-title">Tampella and Finlayson plants</h5>
+		    	<p class="card-text">The history of Tampere is the history of industrialization. Tampere is also a very young city in Finland; Tampere has grown around its factories, which have been rotated by the waters flowing through Tammerkoski. Finlayson's and Tampella's old, mainly red-brick factory areas still dominate the outlook for Tampere. In the modern spirit, however, they operate as cultural factories with educational institutions, creative companies and museums. Finlayson and Tampella are located on opposite sides of Tammerkoski. In between, there is the Satakunta Bridge, which offers great views of the old factory environment.</p>
+    		</div>
+    		<div class="card-footer">
+    			<small class="text-muted">Last updated 3 mins ago</small>
+    		</div>
+		</div>
+		<div class="card">
+	    	<img src="images/pyynikintorni.jpg" class="card-img-top" alt="...">
+	    	<div class="card-body">
+	      		<h5 class="card-title">Pyynikki</h5>
+	      		<p class="card-text">Pyynikki is a district and a nature reserve in Tampere, Finland. It is located in the Pyynikinharju ridge, between the city center and the western district of Pispala. Pyynikinharju is the highest esker in the world, rising 85 meters above the level of lake Pyhäjärvi. Tampere Circuit was a motorsport race track which ran on public streets of Pyynikki. In 1962 and 1963, the Finnish motorcycle Grand Prix on Tampere Circuit was a race of the Road Racing World Championship.</p>
+	    	</div>
+	    	<div class="card-footer">
+	      		<small class="text-muted">Last updated 3 mins ago</small>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="card-group">
+		<div class="card">
+    		<img src="images/pispala.jpg" class="card-img-top" alt="...">
+    		<div class="card-body">
+  				<h5 class="card-title">Pispala</h5>
+    			<p class="card-text">The most beautiful part of Tampere is Pispala, located on the slope of a ridge, with stunning lake views. this is one of the favorite places of Finnish bohemia, a lot of finnish musicians, writers and other cultural figures were living and spending time here, for example a rock singer Pauli Hanhiniemi and art house director Aki Kaurismäki. However, the cultural person most strongly associated with Pispala is the poet and worker writer Lauri Viita, whose novel Moreeni describes Pispala in particular. The most famous attraction in Pispala is the Rajaportti sauna, which will be added later. Behind the sauna, there are stairs to Pispala from Mäkikatu, along which you can climb to the top of the ridge (it is worth doing it before visiting the sauna). The laundry area offers the best views of Pispala.</p>
+    		</div>
+    		<div class="card-footer">
+      			<small class="text-muted">Last updated 3 mins ago</small>
+    		</div>
+  		</div>
+		<div class="card">
+	    	<img src="images/sarkanniemi.jpg" class="card-img-top" alt="...">
+	    	<div class="card-body">
+	      		<h5 class="card-title">Särkänniemi</h5>
+	      		<p class="card-text">Särkänniemi is an amusement park in Tampere, which has been voted several times as the best leisure center and the greatest amusement park in Finland. The park features an aquarium, a planetarium, a children's zoo, an art museum and an observation tower Näsinneula. Särkänniemi has five rollercoasters! Also it has more than 30 rides and attractions. There are two water rides in the park, a log flume called Tukkijoki and a river rapids called Koskiseikkailu. Särkänniemi attracts about 1,100,000 visitors annually. </p>
+	    	</div>
+	    	<div class="card-footer">
+	      		<small class="text-muted">Last updated 3 mins ago</small>
+	    	</div>
+	  	</div>
+  		<div class="card">
+    		<img src="images/kirkko.jpg" class="card-img-top" alt="...">
+    		<div class="card-body">
+		    	<h5 class="card-title">Tampere Cathedral</h5>
+		    	<p class="card-text">Tampere Cathedral (Finnish: Tampereen tuomiokirkko) is a Lutheran church and the seat of the Diocese of Tampere. The building was designed in the National Romantic style by Lars Sonck, and built between 1902 and 1907. The cathedral is famous for its frescoes, painted by the symbolist Hugo Simberg between 1905 and 1906. The paintings aroused considerable adverse criticism in their time, featuring versions of Simberg's The Wounded Angel and The Garden of Death. Of particular controversy was Simberg's painting of a winged serpent on a red background in the highest point of the ceiling, which some contemporaries interpreted as a symbol of sin and corruption. The altar-piece, representing the future resurrection of people of all races, was painted by Magnus Enckell.</p>
+    		</div>
+    		<div class="card-footer">
+    			<small class="text-muted">Last updated 3 mins ago</small>
+    		</div>
+		</div>
+	</div>
+	<!-- Grid -->
+	<div class="container">
+		<div class="row">
+    		<div class="col-md hover-div">
+    			<h3>The History of the City</h3>
+      			The city was founded first as a market place in 1775 and four years later in 1779, it got full city rights granted by the Swedish King called Kustaa III (Gustav III of Sweden) at the time when Finland was part of Sweden. The origin of the city name is partly unknown, but the Swedish name Tammerfors for Tampere means "Rapids of Tammer". The city grew on an ithmus on the banks of Tammerkoski rapids (the Finnish name of the rapids) between two big lakes Näsijärvi and Pyhäjärvi, but it has expanded widely to East and West during more than 200 years. The surface of these two big lakes differ 18 metres (59 feets) on a quite short distance. This area was ideal for all kinds of industries, having electric power from the rapids. The first factories were founded by a Scottish James Finlayson who brought the industurial revolution to Tampere and Finland in the 1820 s'.
+    		</div>
+    		<div class="col-md">
+      			<img src="images/oldtampere.jpg" class="img-fluid">
+    		</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+    		<div class="col-md hover-div">
+    			<h3>Tampere Theatre</h3>
+      			Tampere Theatre is one of the oldest theatres in Finland. Kaarle Halme, a pioneer of dramatic art, founded the Tampere Theatre with the help of the city’s businessmen and indrustrialists in 1904. The Theatre’s first production was ”Kullervo” by Aleksis Kivi, a play based on the Finnish national epic ”the Kalevala”. Altogether the theatre will hold about 800 spectators. Unlike several other Finnish theatres, which were started by amateur groups the Tampere Theatre is a private company and has functioned as a professional theatre from the start. The company’s repertoire is versatile and artistically of a high level. It stages a wide range of musicals, Finnish plays, world classics and modern premieres. Annually, over 100 000 spectators attend some 450 performances in the Theatre and every year 6-8 plays have their premieres. The Theatre has approximately 120 employees, a third of them belonging to the artistic staff.
+    		</div>
+    		<div class="col-md">
+      			<img src="images/teatteri.jpg" class="img-fluid mx-auto d-block">
+    		</div>
+    		<div class="col-md hover-div">
+    			<h3>Hotel Torni Tampere</h3>
+      			Tampere's newer eye-catcher, the 88.5-meter-high skyscraper hotel Solo Sokos Hotel Torni. Even if you don’t live in the hotel, you should head to the skyscraper bar on the roof of the hotel, called Sky Bar Moro. The views from the roof terrace are handsome and at best, of course, at sunset. The hotel's street-level Paja Bar is decorated with two Juice Leskinen guitars and Olli Lindholm's and Pate Mustajärvi's performance costumes.
+    		</div>
+    		<div class="col-md">
+      			<img src="images/hotellitorni.jpg" class="img-fluid mx-auto d-block">
+    		</div>
+		</div>
+		<div class="row">
+    		<div class="col-md hover-div">
+    			<h3>Restaurant Ravintola C</h3>
+      			Ravintola C is for anyone in search of a posh Finnish flair. Located opposite Tampere Railway Station, Ravintola C’s emphasis is on locally produced food and ethical, biodynamic wines. The set menu costs €68 and includes typical Finnish ingredients such as pike, cranberries, and sea-buckthorn – a real treat for any foodie!
+    		</div>
+    		<div class="col-md">
+      			<img src="images/ravintola-c.jpg" class="img-fluid mx-auto d-block">
+    		</div>
+    		<div class="col-md hover-div">
+    			<h3>Fazer </h3>
+      			Fazer is one of the largest corporations in the Finnish food industry. The company was founded by Karl Fazer in 1891, as a "French-Russian confectionery" in central Helsinki. Now it is well-known primarily as a chocolate maker, and it has chain of restaurants in Helsinki, Turku and Tampere.
+    		</div>
+    		<div class="col-md">
+      			<img src="images/fazer.jpg" class="img-fluid mx-auto d-block">
+    		</div>
+		</div>
+		<div class="row">
+    		<div class="col-md hover-div">
+    			<h3>Tampere Central Library</h3>
+      			Tampere Central Library (Tampereen kaupungin pääkirjasto), the main municipal library in Tampere, is also known as Metso ('Capercaillie'), due to its resemblance to the bird, when viewed from above. In addition to the main lending collection, the library houses children's and young adults' sections, newspaper reading room, music section as well as a small performance stage. There are also meeting, project work and exhibition spaces, public computer terminals, as well as a cafeteria, Cafe Metso.
+    		</div>
+    		<div class="col-md">
+      			<img src="images/kirjasto.jpg" class="img-fluid mx-auto d-block">
+    		</div>
+    		<div class="col-md hover-div">
+    			<h3>Moomin Museum</h3>
+      			“Perhaps it will come – perhaps not. It’s all the same to a person who knows that everything is unnecessary.” Tove Jansson, from her book Comet in Moominland. Visit the world’s only Moomin Museum in Tampere and discover the wit, wisdom, warmth and adventure of the Moomin books and illustrations, known and loved by legions of fans all around the world. The exhibits comprise a unique collection of original Moomin art donated to Tampere Art Museum by Jansson in 1986.
+    		</div>
+    		<div class="col-md">
+      			<img src="images/muumimuseo.jpg" class="img-fluid mx-auto d-block">
+    		</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<h3>Contact Us</h3>
+					<br>
+					Our Contacts
+				</div>
+				<div class="col-sm">
+					<h3>Social Media</h3>
+					<a href="#"><i class="fab fa-facebook-square"></i></a>
+			      	<a href="#"><i class="fab fa-youtube"></i></a>
+			      	<a href="#"><i class="fab fa-google"></i></a>
+			      	<a href="#"><i class="fab fa-twitter"></i></a>
+			      	<a href="#"><i class="fab fa-linkedin"></i></a>
+				</div>
+				<div class="col-sm">
+					<img src="images/logo.png" alt="" height="100">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap Script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	
+</body>
+</html>
