@@ -94,7 +94,6 @@ footer {
 .card-title:hover {
 	color: rgb(206,0,89);
 }
-/*
-	min-height: 50%;
-    height: 50%;
-*/
+h6 {
+	margin-top: 65px;
+}
