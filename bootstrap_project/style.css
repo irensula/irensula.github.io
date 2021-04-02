@@ -49,6 +49,9 @@
 		top: 50%;
 		padding: 10px 0;
 	}
+	.carousel-inner {
+		height: 45vh;
+	}
 }
 .card {
 	margin: 50px;
