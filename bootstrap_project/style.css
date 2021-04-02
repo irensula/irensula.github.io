@@ -9,14 +9,14 @@
 .dropdown-menu {
 	background: rgb(244,244,244);
 }
-.nav-item.dropdown {
-	
-} 
 .nav-item:first-child {
 	font-weight: 600;
 }
-.navbar-nav, .nav-item, a {
+.navbar-nav, .nav-item, .fa.fa-navicon, a {
 	color: rgb(29,29,27);
+}
+.fa.fa-navicon {
+	padding-top: 5px;
 }
 .dropdown-item:hover, a:hover, h2:hover {
 	color: rgb(206,0,89);
@@ -28,12 +28,30 @@
 	height: 90vh;
 }
 .carousel-caption {
-	top: 15%;
+	top: 25%;
 	padding: 40px 0;
 	transform: translateY(-50%);
 	background: rgb(244,244,244,0.5);
 	bottom: initial;
 	color: rgb(29,29,27);
+}
+@media only screen and (max-width : 768px) {
+	.carousel-caption {
+		top: 40%;
+		padding: 10px 0;
+	}
+	.carousel-inner, .carouselExampleIndicators {
+		height: 70vh;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.carousel-caption {
+		top: 40%;
+		padding: 10px 0;
+	}
+	.carousel-inner, .carouselExampleIndicators {
+		height: 70vh;
+	}
 }
 .carousel-caption button {
 	background-color: rgb(230,0,113);
@@ -47,6 +65,9 @@
 }
 .row {
 	margin: 50px;
+}
+.col-md {
+	margin-bottom: 30px;
 }
 footer {
 	margin-top: 30px;
@@ -65,8 +86,12 @@ footer {
 .card:hover, .hover-div:hover, .img-fluid:hover {
 	background-color: rgb(244,244,244);
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
+	transition: 0.5s;
 }
 .card-title:hover {
 	color: rgb(206,0,89);
 }
+/*
+	min-height: 50%;
+    height: 50%;
+*/
