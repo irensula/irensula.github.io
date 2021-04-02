@@ -46,11 +46,21 @@
 }
 @media only screen and (max-width : 480px) {
 	.carousel-caption {
-		top: 50%;
+		top: 30%;
 		padding: 10px 0;
 	}
 	.carousel-inner {
 		height: 45vh;
+	}
+}
+@media only screen and (max-width : 400px) {
+	.carousel-caption {
+		top: 40%;
+		padding: 10px 0 0 0;
+		font-size: 12px;
+	}
+	h2 {
+		font-size: 20px;
 	}
 }
 .card {
