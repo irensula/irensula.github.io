@@ -40,25 +40,15 @@
 		top: 40%;
 		padding: 10px 0;
 	}
-	.carousel-inner, .carouselExampleIndicators {
+	.carousel-inner {
 		height: 70vh;
 	}
 }
 @media only screen and (max-width : 480px) {
 	.carousel-caption {
-		top: 40%;
+		top: 50%;
 		padding: 10px 0;
 	}
-	.carousel-inner, .carouselExampleIndicators {
-		height: 70vh;
-	}
-}
-.carousel-caption button {
-	background-color: rgb(230,0,113);
-	border: none;
-	width: 200px;
-	height: 60px;
-	border-radius: 10px;
 }
 .card {
 	margin: 50px;
