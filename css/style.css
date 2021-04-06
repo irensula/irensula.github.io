@@ -684,7 +684,24 @@ header.inner-header {
 	background: rgb(240,16,233);
 	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 90%, rgba(0,212,255,1) 100%);
 }
-
+.gradient-img-5 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 8%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-6 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 35%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-7 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 62%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-8 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 90%, rgba(19,28,42,1) 100%);
+}
+background: rgb(228,120,40);
+background: linear-gradient(35deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 60%, rgba(19,28,42,1) 100%);
 /* PORTFOLIO PAGE */
 .portfolio.portfolio-page {
 	padding-bottom: 0;
@@ -1231,4 +1248,12 @@ body.dark .button.inner:hover {
 }
 .full-post h3 {
 	text-align: left;
+}
+.post-inner-img.habit {
+	width: 300px;
+	height: 300px;
+}
+.post-inner-img.chart {
+	width: 450px;
+	height: 280px;
 }
