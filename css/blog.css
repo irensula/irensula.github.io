@@ -403,4 +403,275 @@
  	#to-do-list {
 	width: 80%;
 	margin: 50px 10%;
+ 	}
  }
+.gradient-img-1 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 8%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-2 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 35%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-3 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 62%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-4 {
+	background: rgb(240,16,233);
+	background: linear-gradient(70deg, rgba(240,16,233,1) 0%, rgba(19,20,249,0.3) 90%, rgba(0,212,255,1) 100%);
+}
+.gradient-img-5 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 8%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-6 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 35%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-7 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 62%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-8 {
+	background: rgb(228,120,40);
+	background: linear-gradient(70deg, rgba(228,120,40,1) 0%, rgba(178,142,124,1) 90%, rgba(19,28,42,1) 100%);
+}
+.gradient-img-9 {
+	background: rgb(0,213,234);
+	background: linear-gradient(70deg, rgba(0,235,146,1) 0%, rgba(230,110,188,1) 8%, rgba(0,213,234,1) 100%);
+}
+.gradient-img-10 {
+	background: rgb(0,213,234);
+	background: linear-gradient(70deg, rgba(0,235,146,1) 0%, rgba(230,110,188,1) 35%, rgba(0,213,234,1) 100%);
+}
+.gradient-img-11 {
+	background: rgb(0,213,234);
+	background: linear-gradient(70deg, rgba(0,235,146,1) 0%, rgba(230,110,188,1) 62%, rgba(0,213,234,1) 100%);
+}
+.gradient-img-12 {
+	background: rgb(0,213,234);
+	background: linear-gradient(70deg, rgba(0,235,146,1) 0%, rgba(230,110,188,1) 90%, rgba(0,213,234,1) 100%);
+}
+/* Animation */
+.animation-box {
+	vertical-align: middle;
+	width: 450px;
+	height: 350px;
+	background-color: rgb(1,129,171);
+	animation: animaColor 15s infinite;
+	transition-duration: 0.3s;
+	margin: 30px auto;
+	padding: 30px 5px 0 10px;
+}
+@keyframes animaColor {
+	0% {
+		background-color: rgba(1,129,171,1);
+	}
+	10% {
+		background-color: rgba(0,235,146,1);
+	}
+	20% {
+		background-color: rgba(230,110,188,1);
+	}
+	30% {
+		background-color: rgba(0,213,234,1);
+	}
+	40% {
+		background-color: rgba(0,235,146,1);
+	}
+	50% {
+		background-color: rgba(230,110,188,1);
+	}
+	60% {
+		background-color: rgba(0,213,234,1);
+	}
+	70% {
+		background-color: rgba(0,235,146,1);
+	}
+	80% {
+		background-color: rgba(230,110,188,1);
+	}
+	90% {
+		background-color: rgba(0,213,234,1);
+	}
+	100% {
+		background-color: rgba(1,129,171,1);
+	}
+}
+.animation-box div {
+	display: inline-block;
+}
+#anim-1, #anim-2, #anim-3, #anim-4, #anim-5, #anim-6, #anim-7, #anim-8, #anim-9 {
+	color: #fff;
+	opacity: 0.7;
+	font-size: 5.2rem;
+	font-weight: 100;
+	position: relative;
+}
+#anim-1 {
+	animation: animA 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-2 {
+	animation: animN 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-3 {
+	animation: animI 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-4 {
+	animation: animM 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-5 {
+	animation: animAA 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-6 {
+	animation: animT 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-7 {
+	animation: animII 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-8 {
+	animation: animO 15s infinite;
+	animation-timing-function: ease;
+}
+#anim-9 {
+	animation: animNN 15s infinite;
+	animation-timing-function: ease;
+}
+@keyframes animA {
+	0%   {top: 0px; transform: rotate(0deg);}
+	20% {top: 85%; transform: rotate(-112deg);}
+	30% {top: 85%; transform: rotate(-112deg);}
+	70% {top: 85%; transform: rotate(-112deg);}
+	80% {top: 79%; transform: rotate(0deg);}
+	84% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animN {
+	0%   {top: 0px; transform: rotate(0deg);}
+	5%   {top: 0px; transform: rotate(0deg);}
+	25% {top: 77%; transform: rotate(-40deg);}
+	70% {top: 77%; transform: rotate(-40deg);}
+	80% {top: 79%; transform: rotate(0deg);}
+	86% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animI {
+	0%   {top: 0px; transform: rotate(0deg);}
+	10%   {top: 0px; transform: rotate(0deg);}
+	30% {top: 80%; transform: rotate(-30deg);}
+	70% {top: 80%; transform: rotate(-30deg);}
+	80% {top: 79%; transform: rotate(0deg);}
+	88% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animM {
+	0%   {top: 0px; transform: rotate(0deg);}
+	15%   {top: 0px; transform: rotate(0deg);}
+	35% {top: 80.5%; transform: rotate(90deg);} /*left: 1%;*/
+	70% {top: 80.5%; transform: rotate(90deg);} /*left: 1%;*/
+	80% {top: 79%; transform: rotate(0deg);}
+	90% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animAA {
+	0%   {top: 0px; transform: rotate(0deg);}
+	20%   {top: 0px; transform: rotate(0deg);}
+	40% {top: 77%; transform: rotate(-60deg);} /*left: 1%;*/
+	70% {top: 77%; transform: rotate(-60deg);} /*left: 1%;*/
+	80% {top: 79%; transform: rotate(0deg);}
+	92% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animT {
+	0%   {top: 0px; transform: rotate(0deg);}
+	25%   {top: 0px; transform: rotate(0deg);}
+	45% {top: 84%; transform: rotate(70deg);}
+	70% {top: 84%; transform: rotate(70deg);}
+	80% {top: 79%; transform: rotate(0deg);}
+	94% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animII {
+	0%   {top: 0px; transform: rotate(0deg);}
+	30%   {top: 0px; transform: rotate(0deg);}
+	50% {top: 80.5%; transform: rotate(180deg);} /*left: 1%;*/
+	70% {top: 80.5%; transform: rotate(180deg);} /*left: 1%;*/
+	80% {top: 79%; transform: rotate(0deg);}
+	96% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animO {
+	0%   {top: 0px; transform: rotate(0deg);}
+	35%   {top: 0px; transform: rotate(0deg);}
+	55% {top: 80.5%; transform: rotate(90deg);} /*left: 1%;*/
+	70% {top: 80.5%; transform: rotate(90deg);} /*left: 1%;*/
+	80% {top: 79%; transform: rotate(0deg);}
+	98% {top: 0%; transform: rotate(0deg);}
+}
+@keyframes animNN {
+	0%   {top: 0px; transform: rotate(0deg);}
+	55%   {top: 0px; transform: rotate(0deg);}
+	70% {top: 79%; transform: rotate(0deg);}
+	70% {top: 79%; transform: rotate(0deg);}
+	80% {top: 79%; transform: rotate(0deg);}
+	100% {top: 0%; transform: rotate(0deg);}
+}
+}
+/* Animation of the circle */
+.element-box {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 450%;
+  	height: 350px;
+  	vertical-align: middle;
+}
+.element {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(230,110,188,1);
+  -webkit-animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+          animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes pulse {
+  0%, 100% {
+    background-color: rgba(230,110,188,1);
+  }
+  50% {
+    background-color: rgba(0,213,234,1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: rgba(230,110,188,1);
+  }
+  50% {
+    background-color: rgba(0,213,234,1);
+  }
+}
+@-webkit-keyframes nudge {
+  0%, 100% {
+    transform: translate(150px, 0);
+  }
+  50% {
+    transform: translate(300px, 0);
+  }
+  80% {
+    transform: translate(0px, 0);
+  }
+}
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(150px, 0);
+  }
+  50% {
+    transform: translate(300px, 0);
+  }
+  80% {
+    transform: translate(0px, 0);
+  }
+}
