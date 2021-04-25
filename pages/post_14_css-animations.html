@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		<title>My Portfolio</title>
+		
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+		<!-- fontawesome -->
+		<script src="https://kit.fontawesome.com/02135387da.js" crossorigin="anonymous"></script>
+		<!-- devicon -->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- Scroll Animation -->
+		<script src="../js/animation/wow.min.js"></script>
+			<script>
+				new WOW().init();
+			</script>
+		<link rel="stylesheet" href="../css/animation/animate.css">
+		
+		<!-- STYLES -->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/media.css">
+		<link rel="stylesheet" type="text/css" href="../css/blog.css">
+	</head>
+
+	<body>
+	
+		<!-- HEADER -->
+		<header class="inner-header">
+
+			<!-- LOGO & NAVIGATION -->
+			<div class="logo-nav-box">
+				<div class="logo">
+					<a href="../index.html">
+						<span>Irina</span> Sula
+					</a>
+				</div>
+				
+				<!-- MAIN MENU -->
+				<ul class="main-menu">
+					<li class="menu-link">
+						<span class="menu-link-drop">Menu</span>
+
+						<!-- ANIMATED BURGER -->
+						<div class="menu-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+
+						<!-- DROPDOWN MENU -->
+						<ul class="dropdown-menu">
+							<li>
+								<a href="blog.html" class="active">Blog</a>
+							</li>
+							<li>
+								<a href="portfolio.html">Portfolio</a>
+							</li>
+							<li>
+								<a href="contacts.html">Contact me</a>
+							</li>
+
+							<!-- SOCIAL LINKS -->
+							<li>
+								<p class="dropdown-menu-title">Follow us</p>
+								<ul class="social-list">
+									<li>
+										<a href="https://www.linkedin.com/in/irina-sula-022296129/" class="linkedin"></a>
+									</li>
+									<li>
+										<a href="https://github.com/irensula" class="github"></a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/irensula" class="fb"></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- MAIN TITLE -->
+			<h1 class="main-title wow flash">Blog</h1>
+			
+		</header>
+		
+		<!-- MAIN CONTENT -->
+		<main>
+
+			<!-- POST -->
+			<section class="inner-page-post">
+				
+				<article class="article-box">
+					<div class="full-post">
+						<h2 class="subtitle middle wow slideInDown">CSS Animations</h2>
+						<p class="post-date wow slideInDown">25 April 2021</p>
+						<div class="animation-box">
+							<div id="anim-1">A</div><div id="anim-2">N</div><div id="anim-3">I</div><div id="anim-4">M</div><div id="anim-5">A</div><div id="anim-6">T</div><div id="anim-7">I</div><div id="anim-8">O</div><div id="anim-9">N</div>
+						</div>
+						<p class="post-text post-page wow slideInLeft">
+							<i>Used well, CSS animation is an incredibly useful and powerful tool. It can add interest or creative excitement, direct the user's eye, explain something quickly and succinctly, and improve usability. For that reason, recent years have seen more and more animation on sites and in app.</i>
+						</p>
+						<h2 class="wow fadeIn">Using CSS animations</h2>
+						<p class="post-text post-page wow slideInLeft">
+							CSS animations make it possible to animate transitions from one CSS style configuration to another. Animations consist of two components, a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation’s style, as well as possible intermediate waypoints.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							There are three key advantages to CSS animations over traditional script-driven animation techniques:
+						</p>
+						<ul class="unordered-list wow fadeIn">
+							<li><i class="fas fa-circle"></i>They’re easy to use for simple animations; you can create them without even having to know JavaScript.</li>
+							<li><i class="fas fa-circle"></i>The animations run well, even under moderate system load. Simple animations can often perform poorly in JavaScript. The rendering engine can use frame-skipping and other techniques to keep the performance as smooth as possible.</li>
+							<li><i class="fas fa-circle"></i>Letting the browser control the animation sequence lets the browser optimize performance and efficiency by, for example, reducing the update frequency of animations running in tabs that aren't currently visible.</li>
+						</ul>
+						<h2 class="wow fadeIn">Configuring the animation</h2>
+						<p class="post-text post-page wow slideInLeft">
+							To create a CSS animation sequence, you style the element you want to animate with the animation property or its sub-properties. This lets you configure the timing, duration, and other details of how the animation sequence should progress. This does not configure the actual appearance of the animation, which is done using the @keyframes at-rule as described in Defining the animation sequence using keyframes below.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							The sub-properties of the animation property are:
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-name</mark> specifies the name of the @keyframes at-rule describing the animation’s keyframes.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-duration</mark> configures the length of time that an animation should take to complete one cycle.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-timing-function</mark> configures the timing of the animation; that is, how the animation transitions through keyframes, by establishing acceleration curves.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-delay</mark> configures the delay between the time the element is loaded and the beginning of the animation sequence.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-iteration-count</mark> configures the number of times the animation should repeat; you can specify infinite to repeat the animation indefinitely.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-direction</mark> configures whether or not the animation should alternate direction on each run through the sequence or reset to the start point and repeat itself.
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+						<mark>animation-fill-mode</mark> configures what values are applied by the animation before and after it is executing.	
+						</p>
+						<p class="post-text post-page wow slideInLeft">
+							<mark>animation-play-state</mark> lets you pause and resume the animation sequence.
+						</p>
+						<h2 class="wow fadeIn">Defining the animation sequence using keyframes</h2>
+						<p class="post-text post-page wow slideInLeft">
+							Once you’ve configured the animation’s timing, you need to define the appearance of the animation. This is done by establishing two or more keyframes using the @keyframes at-rule. Each keyframe describes how the animated element should render at a given time during the animation sequence. Since the timing of the animation is defined in the CSS style that configures the animation, keyframes use a percentage to indicate the time during the animation sequence at which they take place. 0% indicates the first moment of the animation sequence, while 100% indicates the final state of the animation. Because these two times are so important, they have special aliases: from and to. Both are optional. If from/0% or to/100% is not specified, the browser starts or finishes the animation using the computed values of all attributes. You can optionally include additional keyframes that describe intermediate steps between the start and end of the animation.
+						</p>
+						<div class="element-box"><div class="element"></div></div>
+						
+
+					</div>
+				</article>
+			
+				<!-- https://medium.com/@aidanhornsby/notes-on-atomic-habits-c021e38eeae7 -->
+				<!-- POST ASIDE -->
+				<aside class="blog-aside">
+					<div>
+						<h2 class="aside-title wow fadeIn">Porojects</h2>
+						<ul class="portfolio-gallery">
+							<li class="gradient-img-9 wow flipInX">
+								<a href="../pages/project_1.html"></a>
+							</li>
+							<li class="gradient-img-10 wow flipInX">	
+								<a href="../pages/project_2.html"></a>
+							</li>
+							<li class="gradient-img-11 wow flipInX">
+								<a href="../pages/project_3.html"></a>
+							</li>
+							<li class="gradient-img-12 wow flipInX">
+								<a href="../pages/project_4.html"></a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+			</section>
+
+			<!-- SOCIAL BUTTONS -->
+			<ul class="social-buttons">
+				<li class="wow bounceInLeft" data-wow-delay="0.35s">
+					<a href="https://www.linkedin.com/in/irina-sula-022296129/">LinkedIn</a>
+				</li>
+				<li class="wow bounceInLeft" data-wow-delay="0.25s">
+					<a href="https://github.com/irensula">GitHub</a>
+				</li>
+				<li class="wow bounceInLeft">
+					<a href="https://www.facebook.com/irensula">Facebook</a>
+				</li>
+			</ul>
+		
+		</main>
+		
+		<!-- FOOTER -->
+		<footer>
+			<div class="copy">
+				<p>&copy; 2016-2021 Designed and Developed by Irina Sula</p>
+			</div>
+			<div class="mail-me">
+				<p>Feel free to comtact me: irensula@gmail.com</p>
+			</div>
+		</footer>
+		
+		<!-- JS -->
+		<script src="../js/script.js"></script>
+		<script type="text/javascript" src="../js/to-do-list.js"></script>		
+	</body>
+
+</html>
