@@ -1,0 +1,237 @@
+body {
+	background-color: #000;
+	margin: 0;
+}
+.gallery {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 1px;
+    grid-template-areas: 
+    	"img1, img14, img14, img3, img3, img5, img6, img7"
+    	"img1, img14, img14, img3, img3, img5, img6, img7"
+    	"img4, img4, title, img3, img3, img18, img6, img7"
+    	"img4, img4, title, img12, img13, img18, img9, img9"
+    	"img4, img4, title, img12, img13, img10, img9, img9"
+    	"img11, img2, title, img8, img8, img10, img9, img9"
+    	"img11, img2, title, img8, img8, img10, img9, img9"
+    	"img11, img16, img16, img8, img8, img15, img15, img17"
+    	"img11, img16, img16, img8, img8, img15, img15, img17";
+}
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-img:hover {
+	background-color: rgba(255,255,255,0.5);
+}
+figure {
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+figure:hover {
+	opacity: 0.7;
+}
+.scale {
+    display: inline-block; 
+    overflow: hidden; 
+}
+.scale img {
+	transition: 1s;
+}
+.scale img:hover {
+    transform: scale(1.2);
+}
+.gallery-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-area: 'img1';
+}
+.gallery-item-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-area: 'img2';
+}
+.name-block {
+	grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    grid-area: 'title';
+}
+p {
+	color: #fff;
+	opacity: 0.8;
+	text-align: center;
+	font-size: 4vw;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+}
+.gallery-item-3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-area: 'img3';
+}
+.gallery-item-4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-area: 'img4';
+ }
+.gallery-item-5 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-area: 'img5';
+}
+.gallery-item-6 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-area: 'img6';
+}
+.gallery-item-7 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-area: 'img7';
+}
+.gallery-item-8 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-area: 'img8';
+}
+.gallery-item-9 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    grid-area: 'img9';
+}
+.gallery-item-10 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    grid-area: 'img10';
+}
+.gallery-item-11 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-area: 'img11';
+}
+.gallery-item-12 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-area: 'img12';
+}
+.gallery-item-13 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-area: 'img13';
+}
+.gallery-item-14 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-area: 'img14';
+}
+.gallery-item-15 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-area: 'img15';
+}
+.gallery-item-16 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-area: 'img16';
+}
+.gallery-item-17 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-area: 'img17';
+}
+.gallery-item-18 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-area: 'img18';
+}
+/*@media only screen and (max-width : 768px) {
+ 	.gallery {
+ 		grid-template-columns: repeat(3, 1fr);
+ 		grid-template-rows: repeat(6, 1fr);
+ 		grid-template-areas: "title, img1, img2"
+ 							"title, img4, img5"
+ 							"img6, img7, img8"
+ 							"img9, img10, img11"
+ 							"img12, img13, img14"
+ 							"img15, img16, img17";
+ 	}
+ 	.gallery-item-1 {
+ 		display: ;
+ 	}
+ }
+ 
+ /*
+ @media only screen and (max-width : 768px) {
+ @media only screen and (max-width : 480px) {
+}
+ @media only screen and (max-width : 320px) {
+ }
+ <li>
+						<a href="#">
+							<img src="images/img_2.jpg"/>
+							<div class="collections-hover-red">
+								<button>Read more...</button>
+							</div>
+						</a>
+					</li>
+
+.image-hover {
+	display: none;
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+}
+.image-hover {
+	display: block;
+}
+*/
+
