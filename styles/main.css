@@ -53,7 +53,7 @@ h1 {
     font-size: 2em;
     margin-left: 100px;
     position: absolute;
-    top: 95%;
+    bottom: 20px;
 }
 /* NAVIGATION */
 .menu {
