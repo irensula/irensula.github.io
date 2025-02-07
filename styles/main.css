@@ -132,3 +132,9 @@ section {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
 }
+
+@media (min-width: 1600px) {
+    section {
+        padding: 50px 400px;
+    }
+}
