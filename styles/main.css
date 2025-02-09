@@ -196,3 +196,22 @@ section {
         padding: 50px 400px;
     }
 }
+@media (max-width: 600px) {
+    section {
+        padding: 50px 10px;
+    }
+    .main-img {
+        width: 100%;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        color: var(--dark-blue);
+    }
+    h1 {
+        position:inherit;
+    }
+    .project img {
+        height: auto;
+    }
+}
