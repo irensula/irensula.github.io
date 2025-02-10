@@ -16,13 +16,14 @@ header {
     background-color: var(--dark-blue);
     font-family: "Montserrat", sans-serif;
     color: var(--white);
+    height: 100vh;
 }
 .logo {
     margin-left: 50px;
     font-family: "Roboto", serif;
     font-size: 25px;
     font-weight: 800;
-    padding: 30px 100px 30px 50px;
+    padding: 20px 100px 20px 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -40,6 +41,7 @@ i.fa-solid.fa-chevron-right {
 }
 .header {
     width: 100%;
+    overflow: hidden;
 }
 h1 {
     font-size: 6em;
@@ -53,7 +55,7 @@ h1 {
     width: 80%;
     margin: 0 10%;
     position: relative;
-
+    overflow: hidden;
 }
 .chevrons-left {
     font-size: 2em;
@@ -210,8 +212,19 @@ section {
     }
     h1 {
         position:inherit;
+        font-size: 3rem;
+        margin-top: 30px;
     }
     .project img {
         height: auto;
+    }
+    .logo {
+        padding-left: 0;
+    }
+    .chevrons-left {
+        margin-left: 50px;
+    }
+    .angles-section {
+        padding: 0;
     }
 }
