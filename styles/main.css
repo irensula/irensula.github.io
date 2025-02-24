@@ -154,6 +154,7 @@ section {
     max-width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 20px;
 }
 .skill h2 {
     text-align: center;
@@ -178,8 +179,8 @@ section {
 .angles-section:after {
   content: "";
   position: absolute;
-  width: 10%;
-  height: 40%;
+  width: 100px;
+  height: 100px;
   background-color: var(--red);
   z-index: -1;
 }
@@ -194,6 +195,18 @@ section {
 #about p {
     line-height: 30px;
     margin: 20px 50px;
+}
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    height: 300px;
+    font-size: 1em;
+    font-weight: 200;
+}
+footer p {
+    line-height: 300px;
+    padding: 0 200px;
+    vertical-align: middle;
 }
 @media (min-width: 1600px) {
     section {
@@ -242,6 +255,11 @@ section {
 }
 @media (max-width: 440px) {
     h1 {
+        font-size: 3em;
+    }
+}
+@media (max-width: 480px) {
+    .section-title {
         font-size: 3em;
     }
 }
