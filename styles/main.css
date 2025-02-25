@@ -199,14 +199,17 @@ section {
 footer {
     background-color: var(--dark-blue);
     color: var(--white);
-    height: 300px;
     font-size: 1em;
     font-weight: 200;
+    padding: 150px 200px;
+    text-align: center;
 }
-footer p {
-    line-height: 300px;
-    padding: 0 200px;
-    vertical-align: middle;
+.some {
+    display: flex;
+    gap: 3em;
+    font-size: 2em;
+    margin-bottom: 40px;
+    justify-content: center;
 }
 @media (min-width: 1600px) {
     section {
