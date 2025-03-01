@@ -122,7 +122,6 @@ section {
     row-gap: 20px;
 }
 .project {
-    height: 300px;
     object-fit: cover;
     object-position: center;
 }
@@ -154,11 +153,12 @@ section {
     grid-template-columns: repeat(6, 1fr);
     justify-content: center; /* centers items horizontally */
     align-items: center;
+    column-gap: 5%;
+    row-gap: 30px;
     color: var(--dark-blue);
 }
 .skill {
-    margin: 10px 10px 10px 0;
-    padding: 20px 20px 20px 0;
+    width: 100px;
 }
 .skill img {
     max-width: 100%;
@@ -221,10 +221,19 @@ footer {
     margin-bottom: 40px;
     justify-content: center;
 }
+.some a {
+    color: var(--white)
+}
+.some a:hover {
+    color: var(--red);
+}
 @media (min-width: 1600px) {
     section {
         padding: 50px 400px;
     }
+}
+@media (max-width: 1200px) {
+   
 }
 @media (max-width: 720px) {
     .main-img-wrap {
@@ -238,18 +247,10 @@ footer {
     section {
         padding: 50px 10px;
     }
-    .skills {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        color: var(--dark-blue);
-    }
     h1 {
         position:inherit;
         font-size: 3.5rem;
         margin-top: 5vh;
-    }
-    .project img {
-        height: auto;
     }
     .logo {
         padding-left: 0;
@@ -287,9 +288,6 @@ footer {
     }
     .section-title {
         font-size: 2.5em;
-    }
-    .project img {
-        height: auto;
     }
     .logo {
         padding-left: 0;
