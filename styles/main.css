@@ -150,11 +150,12 @@ section {
 /* SKILLS */
 .skills {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center; /* centers items horizontally */
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
     align-items: center;
-    column-gap: 5%;
-    row-gap: 30px;
+    row-gap: 20px;
+    column-gap: 30px;
     color: var(--dark-blue);
 }
 .skill {
@@ -266,6 +267,9 @@ footer {
     .angles-section {
         padding: 0;
     }
+    .skill {
+        width: 75px;
+    }
 }
 @media (max-width: 440px) {
     h1 {
@@ -298,11 +302,5 @@ footer {
     .angles-section {
         padding: 0;
     }
-    .skill {
-        padding: 10px 10px 10px 0;
-    }
-    .skill img {
-        margin: 0 auto 10px auto;
-        width: 80px;
-    }
+    
 }
