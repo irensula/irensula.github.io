@@ -15,6 +15,9 @@ body {
 .dark-blue {
     color: var(--dark-blue);
 }
+.center {
+    text-align: center;
+}
 header {
     background-color: var(--dark-blue);
     font-family: "Montserrat", sans-serif;
@@ -301,6 +304,12 @@ footer {
     }
     .angles-section {
         padding: 0;
+    }
+    footer {
+        padding: 150px 50px;
+    }
+    .some {
+        gap: 30px;
     }
     
 }
