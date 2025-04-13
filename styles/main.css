@@ -273,6 +273,12 @@ footer {
     .skill {
         width: 75px;
     }
+    footer {
+        padding: 150px 50px;
+    }
+    .some {
+        gap: 30px;
+    }
 }
 @media (max-width: 440px) {
     h1 {
@@ -304,12 +310,5 @@ footer {
     }
     .angles-section {
         padding: 0;
-    }
-    footer {
-        padding: 150px 50px;
-    }
-    .some {
-        gap: 30px;
-    }
-    
+    }    
 }
