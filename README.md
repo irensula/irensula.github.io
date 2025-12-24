@@ -5,3 +5,5 @@
 
 # fanikauppa linkki
 [https://irensula.github.io/fanikauppa/index.html] (Famikauppa linkki)
+
+npm install

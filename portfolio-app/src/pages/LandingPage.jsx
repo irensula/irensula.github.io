@@ -15,7 +15,7 @@ const LandingPage = () => {
           <div className="flex-container">
             <nav className="menu">
               <div className="menu_item">
-                <a href="">contacts</a>
+                <a href="#contacts">contacts</a>
               </div>
               <div className="menu_item">
                 <a href="#skills">skills</a>
@@ -67,38 +67,44 @@ const LandingPage = () => {
       <section id="projects">
         <h2 className="section-title">02 webdev projects</h2>
         <div className="projects-container">
+          
           <div className="project">
-            <a href="https://irysul23fanikauppa.node.treok.io/"
-              ><h2>FANIKAUPPA</h2>
+            <Link to="/project/1">
+              <h2>FANIKAUPPA</h2>
               <img src="/images/fanikauppa.png" alt="" />
-            </a>
+            </Link>
           </div>
+
           <div className="project">
-            <a href="https://www.ensitietoa.fi/"
-              ><h2>Ensitietoa</h2>
+            <Link to="/project/2">
+              <h2>Ensitietoa</h2>
               <img src="/images/ensitietoa.png" alt="" />
-            </a>
+            </Link>
           </div>
-           <div className="project">
-            <Link to="/project">
+
+          <div className="project">
+            <Link to="/project/3">
                 <h2>Gigs Info</h2>
                 <img src="" alt="" />
             </Link>
           </div>
+
           <div className="project">
-            <Link to="/project">
+            <Link to="/project/4">
                 <h2>4Langs-app</h2>
                 <img src="" alt="" />
             </Link>
           </div>
+          
           <div className="project">
-            <Link to="/project">
+            <Link to="/project/5">
                 <h2>Alyroskis-app</h2>
                 <img src="" alt="" />
             </Link>
           </div>
+
           <div className="project">
-            <Link to="/project">
+            <Link to="/project/6">
                 <h2>Varauskalenteri</h2>
                 <img src="" alt="" />
             </Link>

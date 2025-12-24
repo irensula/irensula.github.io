@@ -233,6 +233,13 @@ footer {
 .some a:hover {
     color: var(--red);
 }
+/* PROJECT PAGE */
+img.img {
+    width: 300px;
+    margin: 20px 0;
+    box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.75);
+}
+/* MEDIA QUERIES */
 @media (min-width: 1600px) {
     section {
         padding: 50px 400px;

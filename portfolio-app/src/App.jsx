@@ -7,13 +7,8 @@ import LandingPage from "./pages/LandingPage";
 function App() {
   return (
     <Routes>
-        <Route path="/" element={
-          <>
-            <LandingPage />
-          </>
-        } />
-
-        <Route path="/project" element={<Project />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/project/:id" element={<Project />} />
       </Routes>
   )
 }
