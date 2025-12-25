@@ -239,6 +239,16 @@ img.img {
     margin: 20px 0;
     box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.75);
 }
+.inner-header {
+    background-color: var(--light-beige);
+    font-family: "Montserrat", sans-serif;
+    color: var(--dark-blue);
+    height: 50vh;
+}
+.inner-header-img {
+    width: 100%;
+    overflow: hidden;
+}
 /* MEDIA QUERIES */
 @media (min-width: 1600px) {
     section {

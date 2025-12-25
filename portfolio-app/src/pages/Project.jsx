@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import db from '../data/db.json';
+import Footer from "../components/Footer";
 
 const Project = () => {
     const { id } = useParams();
@@ -7,6 +8,23 @@ const Project = () => {
 
     return (
         <div>
+            <header className="inner-header">
+                <div className="logo">
+                <h2>irina: <span> sula </span></h2>            
+          </div>
+
+          <div className="flex-container">
+
+            <div className="header">
+              <div className="main-img-wrap">
+                <img className="inner-header-img" src="/images/main-img-inner.jpg" alt="" />
+              </div>
+
+              <h1>Software Developer Portfolio</h1>
+            </div>
+          </div>
+        </header>
+        
             <h2>{project.name}</h2>
             <p>{project.type}</p>
             <p>{project.year}</p>
@@ -55,7 +73,8 @@ const Project = () => {
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                     View on GitHub
                 </a> 
-            </h3>   
+            </h3> 
+            <Footer />
         </div>
     )
 }
