@@ -5,6 +5,8 @@
     --dark-blue: #4f70cd;
     --light-beige: #fffaea;
     --white: #fff;
+    --violete: #823ebf;
+    --orange: #eab060;
     font-family: "Roboto", serif;;
 }
 body {
@@ -19,7 +21,7 @@ body {
 .center {
     text-align: center;
 }
-header {
+.main-header {
     background-color: var(--light-beige);
     font-family: "Montserrat", sans-serif;
     color: var(--dark-blue);
@@ -46,11 +48,11 @@ i.fa-solid.fa-chevron-right {
     height: 100vh;
     display: flex;
 }
-.header {
+.main-header  {
     width: 100%;
     overflow: hidden;
 }
-h1 {
+.main-title {
     font-size: 6em;
     position: absolute;
     left: 10%;
@@ -240,14 +242,48 @@ img.img {
     box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.75);
 }
 .inner-header {
+    background-image: url("/images/main-img-inner.jpg");
+    background-size: cover;
+    background-position: center;
     background-color: var(--light-beige);
     font-family: "Montserrat", sans-serif;
     color: var(--dark-blue);
-    height: 50vh;
+    height: 35vh;
 }
-.inner-header-img {
-    width: 100%;
-    overflow: hidden;
+.inner-title {
+    font-size: 3em;
+    position: absolute;
+    margin: 100px 0 0 150px;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 1.2em;
+    font-family: "Montserrat", sans-serif;
+}
+.project-name {
+    font-size: 2.5em;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 1.2em;
+    color: var(--dark-blue);
+    font-family: "Montserrat", sans-serif;
+}
+.project-container {
+    width: 60%;
+    margin: 50px auto;
+    line-height: 1.8em;
+}
+.project-title {
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: var(--red);
+    font-family: "Montserrat", sans-serif;
+}
+.left {
+    margin: 0 0 0 50px;
 }
 /* MEDIA QUERIES */
 @media (min-width: 1600px) {

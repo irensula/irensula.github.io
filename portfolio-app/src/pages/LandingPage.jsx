@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 const LandingPage = () => {
     return (
         <>
-        <header>
+        <header className="main-header">
           <div className="logo">
             <h2>irina: <span> sula </span></h2>
             <div className="chevrons">
@@ -34,7 +34,7 @@ const LandingPage = () => {
                 <img className="main-img" src="/images/main-img.jpg" alt="" />
               </div>
 
-              <h1>
+              <h1 className="main-title">
                 Software <br />
                 Developer<br />
                 Portfolio
@@ -66,51 +66,50 @@ const LandingPage = () => {
         </div>
       </section>
       <section id="projects">
-        <h2 className="section-title">02 webdev projects</h2>
+        <h2 className="section-title dark-blue">02 webdev projects</h2>
         <div className="projects-container">
           
           <div className="project">
             <Link to="/project/1">
-              <h2>FANIKAUPPA</h2>
+              <h2>Fanikauppa App</h2>
               <img src="/images/fanikauppa.png" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/2">
-              <h2>Ensitietoa</h2>
-              <img src="/images/ensitietoa.png" alt="" />
+                <h2>Gigs Info App</h2>
+                <img src="" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/3">
-                <h2>Gigs Info</h2>
+                <h2>4Langs App</h2>
                 <img src="" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/4">
-                <h2>4Langs-app</h2>
+                <h2>Chill Bins App</h2>
                 <img src="" alt="" />
             </Link>
           </div>
-          
+
           <div className="project">
             <Link to="/project/5">
-                <h2>Alyroskis-app</h2>
+                <h2>Varauskalenteri App</h2>
                 <img src="" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/6">
-                <h2>Varauskalenteri</h2>
-                <img src="" alt="" />
+              <h2>Ensitietoa Website</h2>
+              <img src="/images/ensitietoa.png" alt="" />
             </Link>
           </div>
-         
         </div>
       </section>
 
@@ -118,16 +117,17 @@ const LandingPage = () => {
         <h2 className="section-title dark-blue">03 unity projects</h2>
         <div className="projects-container">
           <div className="project">
-            <a href="https://play.unity.com/en/games/d60aa3e3-4556-44dc-883f-84d131829890/avaruuden-sankari"
-              ><h2>Avaruuden Sankari</h2>
+            <Link to="/project/7">
+              <h2>Avaruuden Sankari</h2>
               <img src="/images/avaruuden-sankari.png" alt="" />
-            </a>
+            </Link>
           </div>
+
           <div className="project">
-          <a href="https://play.unity.com/en/games/d60aa3e3-4556-44dc-883f-84d131829890/avaruuden-sankari"
-              ><h2>Avaruuden Sankari</h2>
+            <Link to="/project/8">
+              <h2>Haunted House</h2>
               <img src="/images/avaruuden-sankari.png" alt="" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -187,7 +187,7 @@ const LandingPage = () => {
       </section>
 
       <section id="contacts">
-        <h2 className="section-title">05 Contacts</h2>
+        <h2 className="section-title dark-blue">05 Contacts</h2>
         <p>Email: irensula19@gmail.com</p>
       </section>
     </main>

@@ -3,7 +3,7 @@
     {
         "id": 1,
         "type": "Web application",
-        "name": "E-commerce Store",
+        "name": "Fanikauppa App",
         "year": 2025,
         "description": "An online store built with React and Node.js, featuring product listings, a shopping cart, and user authentication.",
         "technologies": ["React", "Node.js", "Express", "Knex", "SQL", "Docker", "AWS"],
@@ -20,7 +20,7 @@
     {
         "id": 2,
         "type": "Web application",
-        "name": "Gigs info website",
+        "name": "Gigs Info App",
         "year": 2025,
         "description": "A web application that provides information about upcoming gigs and events, allowing users to browse and search for events by location and date. Also, there is a user authentication system that allows users to post own events and rate others.",
         "technologies": ["React", "Node.js", "Express", "MongoDB", "Docker"],
@@ -37,7 +37,7 @@
     {
         "id": 3,
         "type": "Mobile application",
-        "name": "Learning Languages App",
+        "name": "4Langs App",
         "year": 2025,
         "description": "A mobile application that helps children to learn four languages at a time through interactive lessons and quizzes.",
         "technologies": ["React Native", "Node.js", "Express", "Knex", "SQL", "Docker", "Python Text-to-Speech"],
@@ -80,7 +80,7 @@
     {
         "id": 5,
         "type": "Web application",
-        "name": "Varauskalanteri",
+        "name": "Varauskalanteri App",
         "year": 2024,
         "description": "An application which helps users to book and manage reservations in a computer class.",
         "technologies": ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
@@ -103,7 +103,7 @@
     {
         "id": 6,
         "type": "Website (CMS)",
-        "name": "HealthCare Courses Platform",
+        "name": "Ensitietoa Website",
         "year": 2024,
         "description": "A website which provides information about health care courses.",
         "technologies": ["systeme.io"],
