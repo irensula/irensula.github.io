@@ -11,7 +11,7 @@ const Project = () => {
         <div>
             <header className="inner-header">
                 <div className="logo">
-                    <Link to="/">
+                    <Link to="/" className="logo-link">
                         <h2>irina: <span> sula </span></h2>          
                     </Link>  
                 </div>
@@ -56,16 +56,20 @@ const Project = () => {
                     </>
                 )}
                 
-                <h3 className="project-title">
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+               {project.link && (
+                    <h3 className="project-title">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link"> 
                         View the Project
                     </a> 
-                </h3>  
-                <h3 className="project-title">
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    </h3>
+                )}  
+                {project.githubLink && (
+                    <h3 className="project-title">
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
                         View on GitHub
                     </a> 
                 </h3>
+                )}
             </div>
             <Footer />
         </div>

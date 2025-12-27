@@ -236,6 +236,14 @@ footer {
     color: var(--red);
 }
 /* PROJECT PAGE */
+.logo-link {
+    color: var(--dark-blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.logo-link:hover {
+    color: var(--orange);
+}
 img.img {
     width: 300px;
     margin: 20px 0;
@@ -289,6 +297,16 @@ img.img {
 .project-carousel {
     margin-left: 50px;
 }
+.project-link:link,
+.project-link:visited,
+.project-link:active {
+    color: var(--red);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.project-link:hover {
+    color: var(--violete);
+}
 /* CAROUSEL */
 .carousel {
     position: relative;
@@ -299,7 +317,7 @@ img.img {
 
 .carousel-image {
     width: 100%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 9 / 6;
     object-fit: cover;
     overflow: hidden;
     box-shadow: 5px 10px 20px rgba(0,0,0,0.75);
