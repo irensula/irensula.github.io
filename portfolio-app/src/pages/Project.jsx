@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import db from '../data/db.json';
+import ImageCarousel from '../components/ImageCarousel';
 import Footer from "../components/Footer";
 
 const Project = () => {
@@ -23,15 +24,8 @@ const Project = () => {
                 <p className="left">{project.year}</p>
                 <p className="left">{project.description}</p>
 
-                <div className="project-images">
-                    {project.images.map((image) => (
-                        <img 
-                            key={image} 
-                            src={`/images/${image}`} 
-                            alt={project.name} 
-                            className="img"
-                        />
-                    ))}
+                <div className="project-carousel">
+                    <ImageCarousel images={project.images} alt={project.name} />
                 </div>
 
                 <h3 className="project-title">Technologies</h3>
