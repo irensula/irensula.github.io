@@ -12,6 +12,12 @@
 body {
     overflow-x: hidden;
 }
+main {
+    max-width: 1100px;
+    width: 100%;
+    margin: 50px auto;
+    line-height: 1.8em;
+}
 .red {
     color: var(--red);
 }
@@ -102,7 +108,7 @@ i.fa-solid.fa-chevron-right {
   color: var(--red);
 }
 section {
-    padding: 50px 200px;
+    padding: 50px 0;
 }
 .section-dark-blue {
     background-color: var(--dark-blue);
@@ -335,15 +341,11 @@ img.img {
     flex-wrap: wrap;
 }
 .project-screenshots.mobile .project-screenshot {
-    max-width: 280px;
+    max-width: 250px;
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 1600px) {
-    section {
-        padding: 50px 400px;
-    }
-}
+
 @media (max-width: 1200px) {
    
 }
