@@ -1,6 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
 import db from '../data/db.json';
-import ImageCarousel from '../components/ImageCarousel';
 import Footer from "../components/Footer";
 
 const Project = () => {
@@ -18,58 +17,76 @@ const Project = () => {
                 <h1 className="inner-title">Software Developer Portfolio</h1>
             </header>
 
-            <div className="project-container">
+            <div className='container'>
                 <h2 className="project-name">{project.name}</h2>
-                <p className="left">{project.type}</p>
-                <p className="left">{project.year}</p>
-                <p className="left">{project.description}</p>
+                <div className="project-container">
+                    <div className="info">
+                        
+                        <h3 className="project-title">Application type</h3>
+                        <p className="left">{project.type}</p>
 
-                <div className="project-carousel">
-                    <ImageCarousel images={project.images} alt={project.name} />
-                </div>
+                        <h3 className="project-title">Description</h3>
+                        <p className="left">{project.description}</p>
 
-                <h3 className="project-title">Technologies</h3>
-                <ul>
-                    {project.technologies.map((tech) => (
-                        <li className="left" key={tech}>{tech}</li>
-                    ))}
-                </ul>
-
-                <h3 className="project-title">Features</h3>
-                <ul>
-                    {project.features.map((feature) =>(
-                        <li className="left" key={feature}>{feature}</li>
-                    ))}
-                </ul>
-
-                <h3 className="project-title">Role</h3>
-                <p className="left">{project.role}</p>
-
-                {project.responsibilities && (
-                    <>
-                        <h3 className="project-title">Responsibilities</h3>
-                        <ul> 
-                            {project.responsibilities.map((responsibility) => (
-                                <li className="left" key={responsibility}>{responsibility}</li>
+                        <h3 className="project-title">Technologies</h3>
+                        <ul>
+                            {project.technologies.map((tech) => (
+                                <li className="left" key={tech}>{tech}</li>
                             ))}
                         </ul>
-                    </>
-                )}
-                
-               {project.link && (
-                    <h3 className="project-title">
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link"> 
-                        View the Project
-                    </a> 
-                    </h3>
-                )}  
-                {project.githubLink && (
-                    <h3 className="project-title">
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                        View on GitHub
-                    </a> 
-                </h3>
-                )}
+
+                        <h3 className="project-title">Features</h3>
+                        <ul>
+                            {project.features.map((feature) =>(
+                                <li className="left" key={feature}>{feature}</li>
+                            ))}
+                        </ul>
+
+                        <h3 className="project-title">Role</h3>
+                        <p className="left">{project.role}</p>
+
+                        {project.responsibilities && (
+                            <>
+                                <h3 className="project-title">Responsibilities</h3>
+                                <ul> 
+                                    {project.responsibilities.map((responsibility) => (
+                                        <li className="left" key={responsibility}>{responsibility}</li>
+                                    ))}
+                                </ul>
+                            </>
+                        )}
+                        
+                        {project.link && (
+                                <h3 className="project-title">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link"> 
+                                    View the Project
+                                </a> 
+                                </h3>
+                            )}  
+                        {project.githubLink && (
+                            <h3 className="project-title">
+                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                                View on GitHub
+                            </a> 
+                        </h3>
+                        )}
+                        
+                        <h3 className="project-title">Year</h3>
+                        <p className="left">{project.year}</p>
+                    </div>
+
+                    <div className={`project-screenshots ${project.type === 'Mobile application' ? 'mobile' : ''}`}>
+                        {project.images.map((img, index) => (
+                            <img
+                                key={index}
+                                src={`/images/${img}`}
+                                alt={`${project.name} screenshot ${index + 1}`}
+                                className="project-screenshot"
+                                loading="lazy"
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>

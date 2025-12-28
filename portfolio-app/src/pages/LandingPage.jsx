@@ -93,7 +93,7 @@ const LandingPage = () => {
           <div className="project">
             <Link to="/project/4">
                 <h2>Chill Bins App</h2>
-                <img src="" alt="" />
+                <img src="/images/chill-bins.png" alt="" />
             </Link>
           </div>
 

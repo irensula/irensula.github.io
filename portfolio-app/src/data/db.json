@@ -15,7 +15,7 @@
         ],
         "githubLink": "https://github.com/irensula/react-online-shop",
         "link": "https://irysul23fanikauppa.node.treok.io",
-        "images": ["project_1_1.png", "project_1_2.png", "project_1_3.png", "project_1_4.png", "project_1_5.png"]
+        "images": ["project_1_1.png", "project_1_2.png", "project_1_3.png", "project_1_4.png", "project_1_5.png", "project_1_6.png"]
     },
     {
         "id": 2,
@@ -75,7 +75,7 @@
             "User can mark bins as full or empty"
         ],
         "githubLink": "https://github.com/irensula/alyroskis-app.git",
-        "images": ["project_4_1.png", "project_4_2.png", "project_4_3.png"]
+        "images": ["project_4_1.png", "project_4_2.png", "project_4_3.png", "project_4_4.png"]
     },
     {
         "id": 5,
