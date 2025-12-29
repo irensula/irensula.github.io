@@ -341,7 +341,7 @@ img.img {
     flex-wrap: wrap;
 }
 .project-screenshots.mobile .project-screenshot {
-    max-width: 250px;
+    max-width: 220px;
 }
 
 /* MEDIA QUERIES */
