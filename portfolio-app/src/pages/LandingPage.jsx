@@ -71,42 +71,42 @@ const LandingPage = () => {
           
           <div className="project">
             <Link to="/project/1">
-              <h2>Fanikauppa App</h2>
+              <h2 className="projects-project-name">Fanikauppa App</h2>
               <img src="/images/fanikauppa.png" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/2">
-                <h2>Gigs Info App</h2>
-                <img src="" alt="" />
+                <h2 className="projects-project-name">Gigs Info App</h2>
+                <img src="/images/keikkainfo.png" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/3">
-                <h2>4Langs App</h2>
-                <img src="" alt="" />
+                <h2 className="projects-project-name">4Langs App</h2>
+                <img src="/images/4langs.png" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/4">
-                <h2>Chill Bins App</h2>
+                <h2 className="projects-project-name">Chill Bins App</h2>
                 <img src="/images/chill-bins.png" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/5">
-                <h2>Varauskalenteri App</h2>
+                <h2 className="projects-project-name">Varauskalenteri App</h2>
                 <img src="" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/6">
-              <h2>Ensitietoa Website</h2>
+              <h2 className="projects-project-name">Ensitietoa Website</h2>
               <img src="/images/ensitietoa.png" alt="" />
             </Link>
           </div>
@@ -118,14 +118,14 @@ const LandingPage = () => {
         <div className="projects-container">
           <div className="project">
             <Link to="/project/7">
-              <h2>Avaruuden Sankari</h2>
+              <h2 className="projects-project-name">Avaruuden Sankari</h2>
               <img src="/images/avaruuden-sankari.png" alt="" />
             </Link>
           </div>
 
           <div className="project">
             <Link to="/project/8">
-              <h2>Haunted House</h2>
+              <h2 className="projects-project-name">Haunted House</h2>
               <img src="/images/avaruuden-sankari.png" alt="" />
             </Link>
           </div>
