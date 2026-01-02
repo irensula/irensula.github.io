@@ -1,4 +1,5 @@
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
         <footer>
             <div className="some">
@@ -11,7 +12,7 @@ const Footer = () => {
                 <a href=""><i className="fa-brands fa-facebook"></i></a>
                 <a href=""><i className="fa-brands fa-instagram"></i></a>
             </div>
-            <p className="center">2025 &#169; All rigths reserved</p>
+            <p className="center">{year} &#169; All rigths reserved</p>
         </footer>  
     )
 };

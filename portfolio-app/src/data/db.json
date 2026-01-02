@@ -150,7 +150,8 @@
             "3D environment and characters from Unity assets store and modeled in Blender"
         ],
         "githubLink": "https://github.com/irensula/unity-projects/tree/main/Project/unity-project",
-        "images": ["project_8_1.png", "project_8_2.png", "project_8_3.png"]
+        "images": ["project_8_1.png", "project_8_2.png"],
+        "status": "In progress."
     }
 ]
 }

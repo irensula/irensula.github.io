@@ -126,7 +126,7 @@ const LandingPage = () => {
           <div className="project">
             <Link to="/project/8">
               <h2 className="projects-project-name">Haunted House</h2>
-              <img src="/images/avaruuden-sankari.png" alt="" />
+              <img src="/images/haunted-house.png" alt="" />
             </Link>
           </div>
         </div>
@@ -188,7 +188,10 @@ const LandingPage = () => {
 
       <section id="contacts">
         <h2 className="section-title dark-blue">05 Contacts</h2>
-        <p>Email: irensula19@gmail.com</p>
+        <h3 className="small-title">Email</h3>
+        <p className="left">irensula19@gmail.com</p>
+        <h3 className="small-title">Location</h3>
+        <p className="left">Tampere</p>
       </section>
     </main>
     <Footer />
