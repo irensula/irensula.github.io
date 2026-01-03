@@ -11,7 +11,7 @@ const Project = () => {
             <header className="inner-header">
                 <div className="logo">
                     <Link to="/" className="logo-link">
-                        <h2>irina: <span> sula </span></h2>          
+                        <h2>irina: <span> &#123; sula &#125; </span></h2>          
                     </Link>  
                 </div>
                 <h1 className="inner-title">Software Developer Portfolio</h1>

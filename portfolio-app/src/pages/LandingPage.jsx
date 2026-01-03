@@ -6,7 +6,7 @@ const LandingPage = () => {
         <>
         <header className="main-header">
           <div className="logo">
-            <h2>irina: <span> sula </span></h2>
+            <h2>irina: <span> &#123; sula &#125; </span></h2>
             <div className="chevrons">
               <i className="fa-solid fa-chevron-right"></i>
               <i className="fa-solid fa-chevron-right"></i>
@@ -100,7 +100,7 @@ const LandingPage = () => {
           <div className="project">
             <Link to="/project/5">
                 <h2 className="projects-project-name">Varauskalenteri App</h2>
-                <img src="" alt="" />
+                <img src="/images/ilmoittautusjärjestelmä.png" alt="" />
             </Link>
           </div>
 
