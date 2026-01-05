@@ -149,7 +149,8 @@
             "User can collect coins, diamonds and inventory items",
             "3D environment and characters from Unity assets store and modeled in Blender"
         ],
-        "githubLink": "https://github.com/irensula/unity-projects/tree/main/Project/unity-project",
+        "githubLink": "https://github.com/irensula/unity-projects/tree/main/Project/unity-project", 
+        "link": "https://play.unity.com/en/games/e3cda6e5-4688-46e0-8f9a-836de371589c/webgl-builds",
         "images": ["project_8_1.png", "project_8_2.png"],
         "status": "In progress."
     }
