@@ -140,6 +140,10 @@ const LandingPage = () => {
             <h2>React</h2>
           </div>
           <div className="skill">
+            <img src="/images/react-native.png" alt="" />
+            <h2>React Native</h2>
+          </div>
+          <div className="skill">
             <img src="/images/js.png" alt="" />
             <h2>Javascript</h2>
           </div>
@@ -162,6 +166,10 @@ const LandingPage = () => {
           <div className="skill">
             <img src="/images/sql.png" alt="" />
             <h2>SQL</h2>
+          </div>
+          <div className="skill">
+            <img src="/images/postgres.png" alt="" />
+            <h2>PostgreSQL</h2>
           </div>
           <div className="skill">
             <img src="/images/unity.png" alt="" />
