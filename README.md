@@ -1,9 +1,9 @@
 # PORTFOLIO
 
-## porfolio linkk
+## porfolio link
 [https://irensula.github.io/] (Portfolio linkki)
 
-## fanikauppa linkki
+## fanikauppa link
 [https://irensula.github.io/fanikauppa/index.html] (Famikauppa linkki)
 
 ## Development
