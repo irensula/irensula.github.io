@@ -1,25 +1,16 @@
-## PORTFOLIO
+# PORTFOLIO
 
-# porfolio linkk
+## porfolio linkk
 [https://irensula.github.io/] (Portfolio linkki)
 
-# fanikauppa linkki
+## fanikauppa linkki
 [https://irensula.github.io/fanikauppa/index.html] (Famikauppa linkki)
+
+## Development
 
 npm install
 npm run dev
-npm install 
-npm install @fortawesome/react-fontawesome
-npm install @fortawesome/free-solid-svg-icons
 
-npm install gh-pages --save-dev
+## Deployment
 
-git init
-git add .
-git commit -m "Deploy portfolio"
-git branch -M main
-git remote add origin https://github.com/irensula/irensula.github.io.git
-git push -u origin main
-   
-npm run build
-npm run deploy
+Push changes to main. GitHub Actions automatically builds and deploys the portfolio to GitHub Pages.
